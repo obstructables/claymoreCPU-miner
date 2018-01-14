@@ -1,0 +1,39 @@
+20:25:25:861	31c0	
+20:25:25:861	31c0	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+20:25:25:861	31c0	บ              Claymore CryptoNote CPU Miner v3.9                บ
+20:25:25:861	31c0	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+20:25:26:086	31c0	XMR: 1 pool is specified
+20:25:26:086	31c0	Main pool is us-etn-pool.hashparty.io:3333
+20:25:26:086	31c0	64-bit version
+20:25:26:086	31c0	CPU supports AES-NI - faster mining!
+20:25:26:086	31c0	Logical CPU cores: 4
+20:25:26:086	31c0	Number of threads: Autoselection...
+20:25:26:086	31c0	Using 3 threads
+20:25:26:109	31c0	scfg: 0
+20:25:41:126	31c0	No AMD cards in the list, ADL library will not be used.
+20:25:41:126	31c0	1 pool specified.
+20:25:41:126	31c0	Remote management (READ-ONLY MODE) is enabled on port 3333
+20:25:41:126	31c0	Press "s" key for statistics.
+20:25:41:252	167c	DevFee: Stratum - connecting to 'us-east.cryptonight-hub.miningpoolhub.com' <45.79.207.32> port 20580 (SSL/TLS)
+20:25:44:329	2b28	send: {"method": "login", "params": {"login": "etnkMJ9oGbWXXRiGkhjfkEVXczmYrCVuTGDshg1GXr8g78ANKw2ZHwqFhg8ii9d3euGr767UMby1e77vsowRAK3i5BYD76LTas", "pass": "x", "agent": "xmr/1.0"}, "id": 1}
+
+20:25:44:330	2b28	Stratum - Connected (unsecure)
+20:25:44:342	2b28	New connection: reset total hashes counters
+20:25:44:422	2b28	got 303 bytes
+20:25:44:422	2b28	buf: {"id":1,"jsonrpc":"2.0","error":null,"result":{"id":"827239128574729","job":{"blob":"01018acedbd205bcfdfbfb804a8cf9d350ae0e849cf597e3ef796ae0837a37fb3659f6c8257162000000007591574a57aefe2f3024207aa0f44376c2da12166e2452046c9e2296da03511d05","job_id":"437902538385242","target":"67d81500"},"status":"OK"}}
+
+20:25:44:422	2b28	parse packet: 303
+20:25:44:422	2b28	new buf size: 0
+20:25:44:422	2b28	Pool Diff 3000
+20:25:44:529	167c	cert subject: /O=mph
+20:25:44:531	167c	cert issuer: /O=mph
+20:25:44:536	167c	SSL/TLS encryption is enabled
+20:25:44:541	167c	send: {"method": "login", "params": {"login": "claymore.cnfee", "pass": "x", "agent": "xmr/1.0"}, "id": 1}
+
+20:25:44:557	167c	Stratum - Connected (SSL/TLS)
+20:25:44:650	167c	got 303 bytes
+20:25:44:653	167c	buf: {"id":1,"jsonrpc":"2.0","error":null,"result":{"id":"475410323566757","job":{"blob":"0606c7cedbd205f15c45244ba27f231f1fe9e04e8fc66e06801895c72e7135ab0207f08a1669b300000000eff507d444cbc6170029d9473cc567edf2f54c162170fe86e07d33fa0c0f83cd08","job_id":"342114995932206","target":"8d210000"},"status":"OK"}}
+
+20:25:44:655	167c	parse packet: 303
+20:25:44:657	167c	new buf size: 0
+20:25:44:665	167c	DevFee: Pool Diff 500054

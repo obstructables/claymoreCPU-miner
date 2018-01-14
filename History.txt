@@ -1,0 +1,118 @@
+VERSION HISTORY
+
+
+v3.9
+
+- fixed issue with devfee failover.
+- fixed critical issues in remote management feature (attacker could crash miner even in read-only mode).
+- added "-mpsw" parameter.
+
+
+
+v3.8
+
+- fixed issue with crash on some systems with a lot of CPU kernels.
+
+
+
+v3.7
+
+- now miner shows current mining speed instead of total average speed.
+- added missed "msvcr110.dll".
+- "-allpools 1" is used automatically when necessary.
+- added "s" key to see current statistics.
+- some minor changes and improvements.
+
+
+
+v3.6
+
+- now all options can be stored in "config.txt" file.
+- added "-allpools" option.
+- added SSL connection support.
+- added remote management support.
+- reduced devfee, it's 2% now if you use secure SSL/TLS connection, 2.5% for unsecure connection.
+- new failover file format, see "epools.txt" for details.
+- some minor changes and improvements.
+
+
+
+v3.5
+---------------------------------------------------------------------
+
+- Added Nicehash pool support.
+
+
+
+v3.4
+---------------------------------------------------------------------
+
+- Reduced dev fee, now it is 2.5%.
+- Improved speed by 1-3%.
+- Improved pool-related routines: less disconnects, more hashrate on some pools.
+
+
+
+v3.3
+---------------------------------------------------------------------
+
+- Added Dashcoin, OEC, MCN and ORION support.
+- Added "-r" option.
+- Added "-nofee" option.
+- Fixed some bugs.
+
+
+
+v3.2
+---------------------------------------------------------------------
+
+- Added minergate pool support.
+- Added "main pool" - miner will try to use main pool every 30 minutes.
+- "pools.txt" file - now you can specify login and password for every pool.
+- current pool address is displayed for every new job.
+- Improved stability.
+
+
+
+v2.2
+---------------------------------------------------------------------
+
+- Fixed bugs.
+
+
+
+v2.1
+---------------------------------------------------------------------
+
+- Reduced number of outdated shares that miner sends to pool.
+- Added fail-over feature, "pools.txt" file.
+- Added watchdog for pool, if no new jobs are received for 20 minutes - disconnect.
+- Added "-ee" option to close miner if no more pools are available in the list.
+- Added "-wd" option to close miner if some thread hangs.
+
+
+
+v2.0
+---------------------------------------------------------------------
+- Added support for CPUs that don't support AES-NI.
+- Added Windows XP support for 32-bit version.
+
+
+
+v1.2
+---------------------------------------------------------------------
+- Fixed bug for pools that use variable targets for shares.
+- Fixed some bugs in Stratum code.
+
+
+
+v1.1
+---------------------------------------------------------------------
+- Added Stratum protocol support.
+
+
+
+v1.0
+---------------------------------------------------------------------
+- First version.
+

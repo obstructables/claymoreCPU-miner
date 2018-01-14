@@ -1,0 +1,1357 @@
+20:27:39:976	36a0	
+20:27:39:992	36a0	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+20:27:39:992	36a0	บ              Claymore CryptoNote CPU Miner v3.9                บ
+20:27:39:992	36a0	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+20:27:40:205	36a0	XMR: 1 pool is specified
+20:27:40:206	36a0	Main pool is us-etn-pool.hashparty.io:3333
+20:27:40:208	36a0	64-bit version
+20:27:40:209	36a0	CPU supports AES-NI - faster mining!
+20:27:40:210	36a0	Logical CPU cores: 4
+20:27:40:211	36a0	Number of threads: Autoselection...
+20:27:40:213	36a0	Using 3 threads
+20:27:40:223	36a0	scfg: 1
+20:27:55:244	36a0	No AMD cards in the list, ADL library will not be used.
+20:27:55:244	36a0	1 pool specified.
+20:27:55:244	36a0	Remote management (READ-ONLY MODE) is enabled on port 3333
+20:27:55:244	36a0	Press "s" key for statistics.
+20:27:55:275	2e5c	Stratum - connecting to 'us-etn-pool.hashparty.io' <52.183.120.173> port 3333 (unsecure)
+20:27:55:296	27f4	DevFee: Stratum - connecting to 'cryptonight.usa.nicehash.com' <198.11.220.44> port 3355 (unsecure)
+20:27:55:343	2e5c	send: {"method": "login", "params": {"login": "etnkMJ9oGbWXXRiGkhjfkEVXczmYrCVuTGDshg1GXr8g78ANKw2ZHwqFhg8ii9d3euGr767UMby1e77vsowRAK3i5BYD76LTas", "pass": "x", "agent": "xmr/1.0"}, "id": 1}
+
+20:27:55:359	2e5c	Stratum - Connected (unsecure)
+20:27:55:359	2e5c	New connection: reset total hashes counters
+20:27:55:440	2e5c	got 303 bytes
+20:27:55:440	2e5c	buf: {"id":1,"jsonrpc":"2.0","error":null,"result":{"id":"464898119471035","job":{"blob":"0101c9cfdbd20561b3faf7491d2ef6e8320111e558c3ea0e248d8b5d75da0a4f1d77f74ad283e200000000dfaf4703e4dfebabfd84eed9ec341710a8335df7d5b7f67669a9c365b9fde32806","job_id":"511944226315245","target":"67d81500"},"status":"OK"}}
+
+20:27:55:440	2e5c	parse packet: 303
+20:27:55:440	2e5c	new buf size: 0
+20:27:55:440	2e5c	Pool Diff 3000
+20:27:58:365	27f4	send: {"method": "login", "params": {"login": "1LmMNkiEvjapn5PRY8A9wypcWJveRrRGWr", "pass": "x", "agent": "xmr/1.0"}, "id": 1}
+
+20:27:58:367	27f4	Stratum - Connected (unsecure)
+20:27:58:464	27f4	got 304 bytes
+20:27:58:466	27f4	buf: {"jsonrpc":"2.0","id":1,"error":null,"result":{"id":"744272720981622","status":"OK","job":{"job_id":"0000000c86bc2a96","blob":"0101c6cfdbd20561b3faf7491d2ef6e8320111e558c3ea0e248d8b5d75da0a4f1d77f74ad283e2000000aed11eee2d13f0b01f97c8963213a0960949598585bdfe795471dcd67a16159a8005","target":"e2530000"}}}
+
+20:27:58:467	27f4	parse packet: 304
+20:27:58:468	27f4	new buf size: 0
+20:27:58:470	27f4	DevFee: Pool Diff 200008
+20:28:24:548	2e5c	got 253 bytes
+20:28:24:551	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101c9cfdbd20561b3faf7491d2ef6e8320111e558c3ea0e248d8b5d75da0a4f1d77f74ad283e200000000f8302d4b4f92973665f3df5da470bdc7f1052cf2887c191dd329aa63285896d206","job_id":"555232589342631","target":"0f3a2a00"}}
+
+20:28:24:553	2e5c	parse packet: 253
+20:28:24:555	2e5c	new buf size: 0
+20:28:24:605	2e5c	01/10/18-20:28:24 - New job received from us-etn-pool.hashparty.io:3333
+20:28:24:693	2e5c	Speed: 45 h/s, TotalHashes: 1K, DevHashes: 0K Mining time:
+20:28:24:713	2e5c	00:00
+20:28:25:330	36a0	watchdog - thread 0, hb time 1437
+20:28:25:332	36a0	watchdog - thread 1, hb time 953
+20:28:25:334	36a0	watchdog - thread 2, hb time 1359
+20:28:54:569	2e5c	got 253 bytes
+20:28:54:570	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101c9cfdbd20561b3faf7491d2ef6e8320111e558c3ea0e248d8b5d75da0a4f1d77f74ad283e200000000062899fe9ca7cd3001c3a16fc0df9e00559e3641ada4f15f888d5e9e7a69971906","job_id":"510620158654637","target":"1f745400"}}
+
+20:28:54:572	2e5c	parse packet: 253
+20:28:54:573	2e5c	new buf size: 0
+20:28:54:580	2e5c	01/10/18-20:28:54 - New job received from us-etn-pool.hashparty.io:3333
+20:28:54:582	2e5c	Speed: 44 h/s, TotalHashes: 2K, DevHashes: 0K Mining time:
+20:28:54:586	2e5c	00:00
+20:28:55:454	36a0	watchdog - thread 0, hb time 187
+20:28:55:456	36a0	watchdog - thread 1, hb time 453
+20:28:55:457	36a0	watchdog - thread 2, hb time 437
+20:29:04:792	2824	round found 1 shares
+20:29:04:836	2e5c	01/10/18-20:29:04 - SHARE FOUND (target 776) - (THR 1 of 3)
+20:29:04:890	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "510620158654637", "nonce": "5d010000", "result": "d517cff62841c66772aa3cc39a162efed05a104c033c9fccc7d31bd8a06e1a00"}, "id":4}
+
+20:29:05:064	2e5c	got 63 bytes
+20:29:05:067	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:29:05:069	2e5c	parse packet: 63
+20:29:05:113	2e5c	Share accepted (172 ms)!
+20:29:05:160	2e5c	new buf size: 0
+20:29:25:482	36a0	watchdog - thread 0, hb time 1344
+20:29:25:487	36a0	watchdog - thread 1, hb time 1516
+20:29:25:489	36a0	watchdog - thread 2, hb time 860
+20:29:25:728	27f4	got 254 bytes
+20:29:25:732	27f4	buf: {"params":{"job_id":"0000000c86bd96fa","blob":"0101a5d0dbd205bd29ebb01912b98a06f14951138f4dfaad0d3d3cf461ad0e3760ae142d54e684000000ae5e90e5b74389430ce4b6661736728aafb500d277733458bbbceaab1bc02581d60b","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:29:25:735	27f4	parse packet: 254
+20:29:25:740	27f4	new buf size: 0
+20:29:25:741	27f4	DevFee: 01/10/18-20:29:25 - New job received from cryptonight.usa.nicehash.com:3355
+20:29:30:716	2644	Speed: 27 h/s, TotalHashes: 3K, DevHashes: 0K Mining time:
+20:29:30:718	2644	00:01
+20:29:32:221	2e5c	got 253 bytes
+20:29:32:222	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101abd0dbd205bd29ebb01912b98a06f14951138f4dfaad0d3d3cf461ad0e3760ae142d54e684000000000ea535f752fbf40fa2b80f9cffcc25e4dfcdb8bae0f354193f5779ceff31f8d80b","job_id":"538901150273159","target":"1f745400"}}
+
+20:29:32:224	2e5c	parse packet: 253
+20:29:32:225	2e5c	new buf size: 0
+20:29:32:233	2e5c	01/10/18-20:29:32 - New job received from us-etn-pool.hashparty.io:3333
+20:29:32:236	2e5c	Speed: 35 h/s, TotalHashes: 3K, DevHashes: 0K Mining time:
+20:29:32:242	2e5c	00:01
+20:29:37:278	27f4	got 254 bytes
+20:29:37:281	27f4	buf: {"params":{"job_id":"0000000c86be9ea2","blob":"0101b0d0dbd205bad17b9fa9350d09e35aaaf0a0a10146e0ef86e480d81b1a2c613d67fe3f5cf3000000aef6d2107ce90fb2c67845d21d498f643eafa2c766f27a1e3fa68ddfb226134e7005","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:29:37:284	27f4	parse packet: 254
+20:29:37:286	27f4	new buf size: 0
+20:29:37:288	27f4	DevFee: 01/10/18-20:29:37 - New job received from cryptonight.usa.nicehash.com:3355
+20:29:41:124	3208	round found 1 shares
+20:29:41:126	2e5c	01/10/18-20:29:41 - SHARE FOUND (target 776) - (THR 2 of 3)
+20:29:41:132	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "538901150273159", "nonce": "ec000000", "result": "06ae307eb52f07b51b8131ca6f82f569f061ef274b3fe2009c2be1aca5721900"}, "id":4}
+
+20:29:41:258	2e5c	got 63 bytes
+20:29:41:260	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:29:41:262	2e5c	parse packet: 63
+20:29:41:271	2e5c	Share accepted (141 ms)!
+20:29:41:273	2e5c	new buf size: 0
+20:29:45:595	2e5c	got 253 bytes
+20:29:45:600	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101b9d0dbd205bad17b9fa9350d09e35aaaf0a0a10146e0ef86e480d81b1a2c613d67fe3f5cf3000000001fded854c938e60814edafbbb53a0b95801d3c6e2c299e22513b1e33743a8a6f05","job_id":"856174884084612","target":"1f745400"}}
+
+20:29:45:602	2e5c	parse packet: 253
+20:29:45:605	2e5c	new buf size: 0
+20:29:45:620	2e5c	01/10/18-20:29:45 - New job received from us-etn-pool.hashparty.io:3333
+20:29:45:645	2e5c	Speed: 35 h/s, TotalHashes: 3K, DevHashes: 0K Mining time:
+20:29:45:657	2e5c	00:01
+20:29:54:629	2e5c	got 253 bytes
+20:29:54:633	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101b9d0dbd205bad17b9fa9350d09e35aaaf0a0a10146e0ef86e480d81b1a2c613d67fe3f5cf30000000097ca7da22c3946004be92e941b5c69f481eb3bd284d254c20413fa23190fce7105","job_id":"806592656206339","target":"5d658400"}}
+
+20:29:54:635	2e5c	parse packet: 253
+20:29:54:637	2e5c	new buf size: 0
+20:29:54:644	2e5c	01/10/18-20:29:54 - New job received from us-etn-pool.hashparty.io:3333
+20:29:54:649	2e5c	Speed: 29 h/s, TotalHashes: 3K, DevHashes: 0K Mining time:
+20:29:54:652	2e5c	00:01
+20:29:54:776	27f4	got 254 bytes
+20:29:54:777	27f4	buf: {"params":{"job_id":"0000000c86c07ad5","blob":"0101c2d0dbd20532e6cd301a38e4b2c26b2529c33715c311f6ecac193e08d20046f7581d9ff3e8000000ae15c0ae6a1cdef4197f658c7cdd37ed170393710f3b2465be06e09f1726ce70a50a","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:29:54:779	27f4	parse packet: 254
+20:29:54:783	27f4	new buf size: 0
+20:29:54:784	27f4	DevFee: 01/10/18-20:29:54 - New job received from cryptonight.usa.nicehash.com:3355
+20:29:55:495	36a0	watchdog - thread 0, hb time 391
+20:29:55:497	36a0	watchdog - thread 1, hb time 282
+20:29:55:499	36a0	watchdog - thread 2, hb time 844
+20:29:58:041	2e5c	got 253 bytes
+20:29:58:043	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101c5d0dbd20532e6cd301a38e4b2c26b2529c33715c311f6ecac193e08d20046f7581d9ff3e8000000003e18e389b3fe953ffcb945b82bd9bcc5723180e77cd0405217c57b9df256487d08","job_id":"369843434472568","target":"5d658400"}}
+
+20:29:58:044	2e5c	parse packet: 253
+20:29:58:046	2e5c	new buf size: 0
+20:29:58:054	2e5c	01/10/18-20:29:58 - New job received from us-etn-pool.hashparty.io:3333
+20:29:58:056	2e5c	Speed: 34 h/s, TotalHashes: 4K, DevHashes: 0K Mining time:
+20:29:58:060	2e5c	00:02
+20:30:03:835	27f4	got 254 bytes
+20:30:03:839	27f4	buf: {"params":{"job_id":"0000000c86c1b6b1","blob":"0101cbd0dbd205e3e0b687daec0e6d71b01ed94b58d2b6e3ce67d737cd476dbb66f2133b111e0b000000aee203cf328a60a7c72c4e2e41ccdd12a04c386282970fa325784e6d1fab0c6c5101","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:30:03:841	27f4	parse packet: 254
+20:30:03:844	27f4	new buf size: 0
+20:30:03:847	27f4	DevFee: 01/10/18-20:30:03 - New job received from cryptonight.usa.nicehash.com:3355
+20:30:06:183	674	round found 1 shares
+20:30:06:185	2e5c	01/10/18-20:30:06 - SHARE FOUND (target 495) - (THR 0 of 3)
+20:30:06:189	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "369843434472568", "nonce": "ed000000", "result": "67d72c47693f8ac8a57743b08a3935e71d929572cb12b69959326e2e3b946200"}, "id":4}
+
+20:30:06:327	2e5c	got 63 bytes
+20:30:06:329	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:30:06:332	2e5c	parse packet: 63
+20:30:06:340	2e5c	Share accepted (140 ms)!
+20:30:06:342	2e5c	new buf size: 0
+20:30:07:266	2e5c	got 253 bytes
+20:30:07:268	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101cfd0dbd205e3e0b687daec0e6d71b01ed94b58d2b6e3ce67d737cd476dbb66f2133b111e0b00000000f05589ada6c47ee5d8ea8562185f631b9f372c1bfa674e68bca96fd91fccb9f701","job_id":"446633933810517","target":"5d658400"}}
+
+20:30:07:270	2e5c	parse packet: 253
+20:30:07:271	2e5c	new buf size: 0
+20:30:07:280	2e5c	01/10/18-20:30:07 - New job received from us-etn-pool.hashparty.io:3333
+20:30:07:284	2e5c	Speed: 31 h/s, TotalHashes: 4K, DevHashes: 0K Mining time:
+20:30:07:288	2e5c	00:02
+20:30:24:757	2e5c	got 253 bytes
+20:30:24:759	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101cfd0dbd205e3e0b687daec0e6d71b01ed94b58d2b6e3ce67d737cd476dbb66f2133b111e0b000000002d54e058dd4bd17e0f74377844f142916d05c4b51c53ae2dd7c523f1c05e3e0e01","job_id":"782775855110958","target":"f1a8dc00"}}
+
+20:30:24:761	2e5c	parse packet: 253
+20:30:24:763	2e5c	new buf size: 0
+20:30:24:769	2e5c	01/10/18-20:30:24 - New job received from us-etn-pool.hashparty.io:3333
+20:30:24:774	2e5c	Speed: 21 h/s, TotalHashes: 4K, DevHashes: 0K Mining time:
+20:30:24:787	2e5c	00:02
+20:30:25:505	36a0	watchdog - thread 0, hb time 1937
+20:30:25:507	36a0	watchdog - thread 1, hb time 1375
+20:30:25:510	36a0	watchdog - thread 2, hb time 1922
+20:30:39:840	27f4	got 254 bytes
+20:30:39:842	27f4	buf: {"params":{"job_id":"0000000c86c2e9fb","blob":"0101efd0dbd20545deb1c81c5b43c7cc9483b617fdfae0baed92837e0e4197c4feb740054d45b6000000ae636d7e977428898d3ef10178dc23ad276d363a1241bcadf183a5835a7b3d706104","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:30:39:844	27f4	parse packet: 254
+20:30:39:846	27f4	new buf size: 0
+20:30:39:847	27f4	DevFee: 01/10/18-20:30:39 - New job received from cryptonight.usa.nicehash.com:3355
+20:30:41:580	2e5c	got 253 bytes
+20:30:41:582	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101f1d0dbd20545deb1c81c5b43c7cc9483b617fdfae0baed92837e0e4197c4feb740054d45b6000000002f15957560c02f3c7dab79129711ae86bdd6e49acbb22e766d512046d30fd0d404","job_id":"826620378158986","target":"f1a8dc00"}}
+
+20:30:41:584	2e5c	parse packet: 253
+20:30:41:586	2e5c	new buf size: 0
+20:30:41:653	2e5c	01/10/18-20:30:41 - New job received from us-etn-pool.hashparty.io:3333
+20:30:41:887	2e5c	Speed: 34 h/s, TotalHashes: 5K, DevHashes: 0K Mining time:
+20:30:41:926	2e5c	00:02
+20:30:44:925	27f4	got 254 bytes
+20:30:44:953	27f4	buf: {"params":{"job_id":"0000000c86c3cf99","blob":"0101f0d0dbd20545deb1c81c5b43c7cc9483b617fdfae0baed92837e0e4197c4feb740054d45b6000000a16fad80d4680f34f7dc0722bb703d83c8617ffe27361ca6250d648e43d74d345304","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:30:44:955	27f4	parse packet: 254
+20:30:44:957	27f4	new buf size: 0
+20:30:44:958	27f4	DevFee: 01/10/18-20:30:44 - New job received from cryptonight.usa.nicehash.com:3355
+20:30:47:120	674	round found 1 shares
+20:30:47:154	2e5c	01/10/18-20:30:47 - SHARE FOUND (target 297) - (THR 0 of 3)
+20:30:47:165	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "826620378158986", "nonce": "5a000000", "result": "1b484e1c66b53fe315fd48075585cb920304172218ff0635c10ecda800444700"}, "id":4}
+
+20:30:47:325	2e5c	got 63 bytes
+20:30:47:328	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:30:47:330	2e5c	parse packet: 63
+20:30:47:346	2e5c	Share accepted (156 ms)!
+20:30:47:372	2e5c	new buf size: 0
+20:30:54:685	2e5c	got 253 bytes
+20:30:54:687	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101f1d0dbd20545deb1c81c5b43c7cc9483b617fdfae0baed92837e0e4197c4feb740054d45b6000000003b6913c0a07be0164a5789c95f8468ffce73b666a28c153a01b551fc97bdfe9d04","job_id":"450274299341253","target":"693f5902"}}
+
+20:30:54:689	2e5c	parse packet: 253
+20:30:54:690	2e5c	new buf size: 0
+20:30:54:724	2e5c	01/10/18-20:30:54 - New job received from us-etn-pool.hashparty.io:3333
+20:30:54:773	2e5c	Speed: 25 h/s, TotalHashes: 5K, DevHashes: 0K Mining time:
+20:30:54:807	2e5c	00:02
+20:30:55:517	36a0	watchdog - thread 0, hb time 813
+20:30:55:519	36a0	watchdog - thread 1, hb time 2469
+20:30:55:521	36a0	watchdog - thread 2, hb time 2406
+20:31:00:353	27f4	got 254 bytes
+20:31:00:355	27f4	buf: {"params":{"job_id":"0000000c86c480e3","blob":"010184d1dbd205138fb8a083ed313bc34b3fa614ba68ef914ad6b4d97a0cc9a76156ef1e7b09f2000000a1cb7479ad4299071c5af380c41698b440e57b94a5e3376bd98ba3b7cf8fc2392916","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:31:00:357	27f4	parse packet: 254
+20:31:00:358	27f4	new buf size: 0
+20:31:00:360	27f4	DevFee: 01/10/18-20:31:00 - New job received from cryptonight.usa.nicehash.com:3355
+20:31:03:125	674	round found 1 shares
+20:31:03:131	2e5c	01/10/18-20:31:03 - SHARE FOUND (target 109) - (THR 0 of 3)
+20:31:03:134	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "450274299341253", "nonce": "fc000000", "result": "baef6d99f5983d07485f609bdde16f91fd36e8c470b3e705ab17be5fa9424a01"}, "id":4}
+
+20:31:03:204	674	round found 1 shares
+20:31:03:210	2e5c	01/10/18-20:31:03 - SHARE FOUND (target 109) - (THR 0 of 3)
+20:31:03:212	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "450274299341253", "nonce": "ff000000", "result": "149c4722fc73676aa6362398b811779569d4d0eeef10cd9ab676ff4c5f380f01"}, "id":4}
+
+20:31:03:258	2e5c	got 63 bytes
+20:31:03:260	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:31:03:261	2e5c	parse packet: 63
+20:31:03:269	2e5c	Share accepted (47 ms)!
+20:31:03:271	2e5c	new buf size: 0
+20:31:03:460	2e5c	got 63 bytes
+20:31:03:461	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:31:03:463	2e5c	parse packet: 63
+20:31:03:472	2e5c	Share accepted (250 ms)!
+20:31:03:474	2e5c	new buf size: 0
+20:31:03:713	674	round found 1 shares
+20:31:03:722	2e5c	01/10/18-20:31:03 - SHARE FOUND (target 109) - (THR 0 of 3)
+20:31:03:725	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "450274299341253", "nonce": "11010000", "result": "30290c6f44bc7f9902e5adadfc70044bdd4737951c216dc2d87c8eb1d3efe801"}, "id":4}
+
+20:31:03:878	2e5c	got 63 bytes
+20:31:03:880	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:31:03:882	2e5c	parse packet: 63
+20:31:03:888	2e5c	Share accepted (156 ms)!
+20:31:03:890	2e5c	new buf size: 0
+20:31:05:349	2e5c	got 253 bytes
+20:31:05:351	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"010188d1dbd205138fb8a083ed313bc34b3fa614ba68ef914ad6b4d97a0cc9a76156ef1e7b09f200000000e55447b66450015faa139a400e24d5c25c75126a19b0c6f2186b84280865045717","job_id":"501212105387821","target":"693f5902"}}
+
+20:31:05:353	2e5c	parse packet: 253
+20:31:05:355	2e5c	new buf size: 0
+20:31:05:383	2e5c	01/10/18-20:31:05 - New job received from us-etn-pool.hashparty.io:3333
+20:31:05:461	2e5c	Speed: 33 h/s, TotalHashes: 6K, DevHashes: 0K Mining time:
+20:31:05:508	2e5c	00:03
+20:31:06:455	2824	round found 1 shares
+20:31:06:575	2e5c	01/10/18-20:31:06 - SHARE FOUND (target 109) - (THR 1 of 3)
+20:31:06:609	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "501212105387821", "nonce": "10000000", "result": "f99604345e88f30158c28f1007756801c585860c512c2caf999e6e257190d800"}, "id":4}
+
+20:31:06:763	2e5c	got 63 bytes
+20:31:06:765	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:31:06:770	2e5c	parse packet: 63
+20:31:06:809	2e5c	Share accepted (156 ms)!
+20:31:06:829	2e5c	new buf size: 0
+20:31:08:240	3208	round found 1 shares
+20:31:08:277	2e5c	01/10/18-20:31:08 - SHARE FOUND (target 109) - (THR 2 of 3)
+20:31:08:511	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "501212105387821", "nonce": "1a000000", "result": "43f850cc1d8be382f82f51817f380ffa1678731754f1608dbd0422e1e2b1ea01"}, "id":4}
+
+20:31:08:653	2e5c	got 63 bytes
+20:31:08:656	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:31:08:659	2e5c	parse packet: 63
+20:31:08:945	2e5c	Share accepted (140 ms)!
+20:31:09:213	2e5c	new buf size: 0
+20:31:17:420	2824	round found 1 shares
+20:31:17:445	2e5c	01/10/18-20:31:17 - SHARE FOUND (target 109) - (THR 1 of 3)
+20:31:17:454	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "501212105387821", "nonce": "57010000", "result": "c55a0d56f8b1ce29a8046f9e5a20277fcc50a56fd35212090a60dcbf2a5e5d01"}, "id":4}
+
+20:31:17:658	2e5c	got 63 bytes
+20:31:17:660	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:31:17:661	2e5c	parse packet: 63
+20:31:17:670	2e5c	Share accepted (203 ms)!
+20:31:17:673	2e5c	new buf size: 0
+20:31:24:707	2e5c	got 253 bytes
+20:31:24:709	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"010188d1dbd205138fb8a083ed313bc34b3fa614ba68ef914ad6b4d97a0cc9a76156ef1e7b09f20000000064b0b48a7900c3b7240272b3b87dbf6f5aa60266136369911900448439548ef317","job_id":"393719854787923","target":"b49f2c01"}}
+
+20:31:24:711	2e5c	parse packet: 253
+20:31:24:712	2e5c	new buf size: 0
+20:31:24:718	2e5c	01/10/18-20:31:24 - New job received from us-etn-pool.hashparty.io:3333
+20:31:24:722	2e5c	Speed: 37 h/s, TotalHashes: 6K, DevHashes: 0K Mining time:
+20:31:24:726	2e5c	00:03
+20:31:25:527	36a0	watchdog - thread 0, hb time 531
+20:31:25:529	36a0	watchdog - thread 1, hb time 1265
+20:31:25:530	36a0	watchdog - thread 2, hb time 437
+20:31:43:557	27f4	got 254 bytes
+20:31:43:559	27f4	buf: {"params":{"job_id":"0000000c86c60297","blob":"0101ebd0dbd205138fb8a083ed313bc34b3fa614ba68ef914ad6b4d97a0cc9a76156ef1e7b09f2000000fbbc8b785318177aa5fc5d6a6903947d823cb60ab429c65479100749b2b9adf8b515","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:31:43:560	27f4	parse packet: 254
+20:31:43:562	27f4	new buf size: 0
+20:31:43:563	27f4	DevFee: 01/10/18-20:31:43 - New job received from cryptonight.usa.nicehash.com:3355
+20:31:48:213	2824	round found 1 shares
+20:31:48:221	2e5c	01/10/18-20:31:48 - SHARE FOUND (target 218) - (THR 1 of 3)
+20:31:48:225	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "393719854787923", "nonce": "8b030000", "result": "ea3bb5c8e0f80cd8622519658788ea7c71b29f6d5498cc21a45d1ad121cac200"}, "id":4}
+
+20:31:48:375	2e5c	got 63 bytes
+20:31:48:377	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:31:48:379	2e5c	parse packet: 63
+20:31:48:415	2e5c	Share accepted (156 ms)!
+20:31:48:442	2e5c	new buf size: 0
+20:31:54:741	2e5c	got 253 bytes
+20:31:54:743	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"010188d1dbd205138fb8a083ed313bc34b3fa614ba68ef914ad6b4d97a0cc9a76156ef1e7b09f20000000080f962a5e7eb2d50104f1c325c7f4caf5d8fa09e1401fff2f39274d109e346a117","job_id":"505284174974076","target":"02277002"}}
+
+20:31:54:745	2e5c	parse packet: 253
+20:31:54:746	2e5c	new buf size: 0
+20:31:54:754	2e5c	01/10/18-20:31:54 - New job received from us-etn-pool.hashparty.io:3333
+20:31:54:756	2e5c	Speed: 27 h/s, TotalHashes: 7K, DevHashes: 0K Mining time:
+20:31:54:759	2e5c	00:03
+20:31:55:574	36a0	watchdog - thread 0, hb time 1031
+20:31:55:576	36a0	watchdog - thread 1, hb time 1234
+20:31:55:577	36a0	watchdog - thread 2, hb time 781
+20:31:59:969	674	round found 1 shares
+20:31:59:973	2e5c	01/10/18-20:31:59 - SHARE FOUND (target 105) - (THR 0 of 3)
+20:31:59:978	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "505284174974076", "nonce": "84000000", "result": "c63c17cd9793dc5b202d63ae3afb67c467d95797a4e7f41e27607eba7da90400"}, "id":4}
+
+20:32:00:165	2e5c	got 63 bytes
+20:32:00:169	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:32:00:171	2e5c	parse packet: 63
+20:32:00:178	2e5c	Share accepted (187 ms)!
+20:32:00:181	2e5c	new buf size: 0
+20:32:11:714	2824	round found 1 shares
+20:32:11:750	2e5c	01/10/18-20:32:11 - SHARE FOUND (target 105) - (THR 1 of 3)
+20:32:11:780	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "505284174974076", "nonce": "23020000", "result": "a6fb75e82d94ccf94626f873a5a89449f619ea36bf5936d784a18e5e15ece301"}, "id":4}
+
+20:32:11:915	2e5c	got 63 bytes
+20:32:11:919	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:32:11:921	2e5c	parse packet: 63
+20:32:11:972	2e5c	Share accepted (141 ms)!
+20:32:12:023	2e5c	new buf size: 0
+20:32:17:097	3208	round found 1 shares
+20:32:17:124	2e5c	01/10/18-20:32:17 - SHARE FOUND (target 105) - (THR 2 of 3)
+20:32:17:163	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "505284174974076", "nonce": "99020000", "result": "bdb6e6ead59d4498aaca8b501e56d5d4593d63bf3ddd864774864eb61417f901"}, "id":4}
+
+20:32:17:317	2e5c	got 63 bytes
+20:32:17:319	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:32:17:321	2e5c	parse packet: 63
+20:32:17:337	2e5c	Share accepted (141 ms)!
+20:32:17:339	2e5c	new buf size: 0
+20:32:24:799	2e5c	got 253 bytes
+20:32:24:801	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"010188d1dbd205138fb8a083ed313bc34b3fa614ba68ef914ad6b4d97a0cc9a76156ef1e7b09f2000000008d57944659735a2d2d326deb7e54a867b7e25133586798354690199a648b796a17","job_id":"280084636225365","target":"b40f9201"}}
+
+20:32:24:803	2e5c	parse packet: 253
+20:32:24:805	2e5c	new buf size: 0
+20:32:24:837	2e5c	01/10/18-20:32:24 - New job received from us-etn-pool.hashparty.io:3333
+20:32:24:954	2e5c	Speed: 26 h/s, TotalHashes: 8K, DevHashes: 0K Mining time:
+20:32:24:987	2e5c	00:04
+20:32:25:609	36a0	watchdog - thread 0, hb time 1172
+20:32:25:611	36a0	watchdog - thread 1, hb time 1032
+20:32:25:613	36a0	watchdog - thread 2, hb time 1829
+20:32:30:256	674	round found 1 shares
+20:32:30:292	2e5c	01/10/18-20:32:30 - SHARE FOUND (target 163) - (THR 0 of 3)
+20:32:30:317	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "280084636225365", "nonce": "72000000", "result": "3df92f34bcc670d51880bd47eea879f87b0a473938bf341c4d49cc68ceb52400"}, "id":4}
+
+20:32:30:578	2e5c	got 63 bytes
+20:32:30:580	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:32:30:582	2e5c	parse packet: 63
+20:32:30:631	2e5c	Share accepted (265 ms)!
+20:32:30:658	2e5c	new buf size: 0
+20:32:35:841	674	round found 1 shares
+20:32:35:871	2e5c	01/10/18-20:32:35 - SHARE FOUND (target 163) - (THR 0 of 3)
+20:32:35:879	3208	round found 1 shares
+20:32:35:897	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "280084636225365", "nonce": "14010000", "result": "4a58490b3d90e90ab7144a116937b79b555a5b2c9a892a9b37865ec43b98f300"}, "id":4}
+
+20:32:35:939	2e5c	01/10/18-20:32:35 - SHARE FOUND (target 163) - (THR 2 of 3)
+20:32:35:959	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "280084636225365", "nonce": "07010000", "result": "6beaa31a6b5a82447e8ef2de4b7ded8a69d42ecfb81e4fb63ffad3768fea9700"}, "id":4}
+
+20:32:35:976	2e5c	got 63 bytes
+20:32:35:979	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:32:35:981	2e5c	parse packet: 63
+20:32:36:007	2e5c	Share accepted (32 ms)!
+20:32:36:020	2e5c	new buf size: 0
+20:32:36:112	2e5c	got 63 bytes
+20:32:36:114	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:32:36:116	2e5c	parse packet: 63
+20:32:36:133	2e5c	Share accepted (157 ms)!
+20:32:36:136	2e5c	new buf size: 0
+20:32:37:582	674	round found 1 shares
+20:32:37:588	2e5c	01/10/18-20:32:37 - SHARE FOUND (target 163) - (THR 0 of 3)
+20:32:37:591	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "280084636225365", "nonce": "4d010000", "result": "3f4fd6c0453b971572700055b9aa04aed6794fdfcab4d36f9f9bd7402c5c8d00"}, "id":4}
+
+20:32:37:679	2e5c	got 63 bytes
+20:32:37:681	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:32:37:682	2e5c	parse packet: 63
+20:32:37:687	2e5c	Share accepted (94 ms)!
+20:32:37:689	2e5c	new buf size: 0
+20:32:38:228	3208	round found 1 shares
+20:32:38:243	2e5c	01/10/18-20:32:38 - SHARE FOUND (target 163) - (THR 2 of 3)
+20:32:38:245	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "280084636225365", "nonce": "55010000", "result": "a28628d8c99581ba62756a97904b10fc72e19d1ae2e397489db4a802c164ca00"}, "id":4}
+
+20:32:38:332	2e5c	got 63 bytes
+20:32:38:334	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:32:38:335	2e5c	parse packet: 63
+20:32:38:343	2e5c	Share accepted (78 ms)!
+20:32:38:347	2e5c	new buf size: 0
+20:32:41:583	674	round found 1 shares
+20:32:41:612	2e5c	01/10/18-20:32:41 - SHARE FOUND (target 163) - (THR 0 of 3)
+20:32:41:617	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "280084636225365", "nonce": "f2010000", "result": "a0a156e9882f28a663fd158b4c282065763149436b2bddf83ffa805364007101"}, "id":4}
+
+20:32:41:765	2e5c	got 63 bytes
+20:32:41:768	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:32:41:770	2e5c	parse packet: 63
+20:32:41:803	2e5c	Share accepted (156 ms)!
+20:32:41:835	2e5c	new buf size: 0
+20:32:53:013	2824	round found 1 shares
+20:32:53:028	2e5c	01/10/18-20:32:53 - SHARE FOUND (target 163) - (THR 1 of 3)
+20:32:53:030	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "280084636225365", "nonce": "46030000", "result": "be4aa5a65939c90cf33bcf363f8c6c26e7ebb765c2222fea188c09ff410fba00"}, "id":4}
+
+20:32:53:184	2e5c	got 63 bytes
+20:32:53:185	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:32:53:187	2e5c	parse packet: 63
+20:32:53:195	2e5c	Share accepted (157 ms)!
+20:32:53:197	2e5c	new buf size: 0
+20:32:54:835	2e5c	got 253 bytes
+20:32:54:838	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"010188d1dbd205138fb8a083ed313bc34b3fa614ba68ef914ad6b4d97a0cc9a76156ef1e7b09f200000000446c420cc1703c0b001b17ef45fedbd45e40760f335f52a25394f31dd281534517","job_id":"708968374319374","target":"da07c900"}}
+
+20:32:54:839	2e5c	parse packet: 253
+20:32:54:841	2e5c	new buf size: 0
+20:32:54:845	2e5c	01/10/18-20:32:54 - New job received from us-etn-pool.hashparty.io:3333
+20:32:54:848	2e5c	Speed: 25 h/s, TotalHashes: 9K, DevHashes: 0K Mining time:
+20:32:54:851	2e5c	00:04
+20:32:55:706	36a0	watchdog - thread 0, hb time 1562
+20:32:55:708	36a0	watchdog - thread 1, hb time 718
+20:32:55:711	36a0	watchdog - thread 2, hb time 797
+20:33:07:967	27f4	got 254 bytes
+20:33:07:969	27f4	buf: {"params":{"job_id":"0000000c86c7e4e1","blob":"0101ead1dbd205e0870ed998595d69421866bf2a7ca2cd76678c2324cc7286f677dc88f289ca02000000fb96654f5829c1b33104856c9147076a8d65b1146e7985e2b393f7cc266b66218418","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:33:07:971	27f4	parse packet: 254
+20:33:07:972	27f4	new buf size: 0
+20:33:07:974	27f4	DevFee: 01/10/18-20:33:07 - New job received from cryptonight.usa.nicehash.com:3355
+20:33:11:114	3208	round found 1 shares
+20:33:11:122	2e5c	01/10/18-20:33:11 - SHARE FOUND (target 326) - (THR 2 of 3)
+20:33:11:128	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "708968374319374", "nonce": "00020000", "result": "40a0d7a539e0faada1c9fa244bc560b689fa4790bcce445b6ee0d3c844a51e00"}, "id":4}
+
+20:33:11:261	2e5c	got 63 bytes
+20:33:11:263	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:33:11:264	2e5c	parse packet: 63
+20:33:11:271	2e5c	Share accepted (141 ms)!
+20:33:11:273	2e5c	new buf size: 0
+20:33:13:847	27f4	got 254 bytes
+20:33:13:849	27f4	buf: {"params":{"job_id":"0000000c86c8e146","blob":"0101f1d1dbd205148be8a71c31acf45e5970eda2ac5d29f65078ccd27131cebb63cb35a7c7bb22000000fbe65f2e461994cfbec1d0d3070a8bbca4de427464f7d9bb76dbbf4c3773f2d05e14","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:33:13:851	27f4	parse packet: 254
+20:33:13:854	27f4	new buf size: 0
+20:33:13:856	27f4	DevFee: 01/10/18-20:33:13 - New job received from cryptonight.usa.nicehash.com:3355
+20:33:19:690	2e5c	got 253 bytes
+20:33:19:692	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"01018fd2dbd205148be8a71c31acf45e5970eda2ac5d29f65078ccd27131cebb63cb35a7c7bb2200000000fa6c8bdfb3324e699fdd27fe0d8dc59dc41924054d6cd55b4f02ca83435915db14","job_id":"187187896505929","target":"da07c900"}}
+
+20:33:19:693	2e5c	parse packet: 253
+20:33:19:695	2e5c	new buf size: 0
+20:33:19:706	2e5c	01/10/18-20:33:19 - New job received from us-etn-pool.hashparty.io:3333
+20:33:19:741	2e5c	Speed: 36 h/s, TotalHashes: 10K, DevHashes: 0K Mining time:
+20:33:19:744	2e5c	00:05
+20:33:25:125	2824	round found 1 shares
+20:33:25:141	2e5c	01/10/18-20:33:25 - SHARE FOUND (target 326) - (THR 1 of 3)
+20:33:25:146	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "187187896505929", "nonce": "a3000000", "result": "e70aa6402e85ea28fb4ffc3f6f0fcdc0c70a19cc04ac9fcba54839252b432d00"}, "id":4}
+
+20:33:25:318	2e5c	got 63 bytes
+20:33:25:320	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:33:25:322	2e5c	parse packet: 63
+20:33:25:340	2e5c	Share accepted (187 ms)!
+20:33:25:348	2e5c	new buf size: 0
+20:33:25:803	36a0	watchdog - thread 0, hb time 1406
+20:33:25:805	36a0	watchdog - thread 1, hb time 94
+20:33:25:807	36a0	watchdog - thread 2, hb time 1062
+20:33:36:308	3208	round found 1 shares
+20:33:36:342	2e5c	01/10/18-20:33:36 - SHARE FOUND (target 326) - (THR 2 of 3)
+20:33:36:402	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "187187896505929", "nonce": "e5010000", "result": "00329250e2a34c5f84d03fbe0c59fc62eed06821a6b6c377f3f579fda19ea200"}, "id":4}
+
+20:33:36:491	2e5c	got 63 bytes
+20:33:36:493	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:33:36:495	2e5c	parse packet: 63
+20:33:36:502	2e5c	Share accepted (94 ms)!
+20:33:36:504	2e5c	new buf size: 0
+20:33:37:771	2824	round found 1 shares
+20:33:37:846	2e5c	01/10/18-20:33:37 - SHARE FOUND (target 326) - (THR 1 of 3)
+20:33:37:880	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "187187896505929", "nonce": "59020000", "result": "7f0277bcaa90f4f4933da7b729d420af481c75a77062e9f34d496306bd616a00"}, "id":4}
+
+20:33:38:029	2e5c	got 63 bytes
+20:33:38:031	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:33:38:033	2e5c	parse packet: 63
+20:33:38:282	2e5c	Share accepted (140 ms)!
+20:33:38:308	2e5c	new buf size: 0
+20:33:45:309	674	round found 1 shares
+20:33:45:345	2e5c	01/10/18-20:33:45 - SHARE FOUND (target 326) - (THR 0 of 3)
+20:33:45:366	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "187187896505929", "nonce": "27030000", "result": "830113d55d3252d0c3992c4a0bcdc6295ec346ed3442b04e9cb7870fe330c500"}, "id":4}
+
+20:33:45:481	2e5c	got 63 bytes
+20:33:45:483	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:33:45:486	2e5c	parse packet: 63
+20:33:45:510	2e5c	Share accepted (125 ms)!
+20:33:45:527	2e5c	new buf size: 0
+20:33:54:930	2e5c	got 253 bytes
+20:33:54:934	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"01018fd2dbd205148be8a71c31acf45e5970eda2ac5d29f65078ccd27131cebb63cb35a7c7bb2200000000542110de324b5602fcc92c06cb5dbc872d7b865d0cd1e677d50975d6a642243b14","job_id":"714145150873810","target":"34708b00"}}
+
+20:33:54:936	2e5c	parse packet: 253
+20:33:54:939	2e5c	new buf size: 0
+20:33:54:973	2e5c	01/10/18-20:33:54 - New job received from us-etn-pool.hashparty.io:3333
+20:33:55:049	2e5c	Speed: 23 h/s, TotalHashes: 11K, DevHashes: 0K Mining time:
+20:33:55:066	2e5c	00:05
+20:33:55:857	36a0	watchdog - thread 0, hb time 188
+20:33:55:859	36a0	watchdog - thread 1, hb time 907
+20:33:55:861	36a0	watchdog - thread 2, hb time 782
+20:33:58:240	674	round found 1 shares
+20:33:58:290	2e5c	01/10/18-20:33:58 - SHARE FOUND (target 470) - (THR 0 of 3)
+20:33:58:356	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "714145150873810", "nonce": "4b000000", "result": "f7eee3075772c31ce11780d108f5d4657b739cf6f1e68a4322bc41a0acc00900"}, "id":4}
+
+20:33:58:539	2e5c	got 63 bytes
+20:33:58:542	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:33:58:545	2e5c	parse packet: 63
+20:33:58:575	2e5c	Share accepted (187 ms)!
+20:33:58:667	2e5c	new buf size: 0
+20:34:09:920	2824	round found 1 shares
+20:34:09:923	2e5c	01/10/18-20:34:09 - SHARE FOUND (target 470) - (THR 1 of 3)
+20:34:09:929	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "714145150873810", "nonce": "d8010000", "result": "b46cf756cc57acade1f98b2ad1e643f08e9153f1fba39f1c6e8e3fe8b70b6600"}, "id":4}
+
+20:34:10:008	2e5c	got 63 bytes
+20:34:10:010	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:34:10:012	2e5c	parse packet: 63
+20:34:10:019	2e5c	Share accepted (94 ms)!
+20:34:10:021	2e5c	new buf size: 0
+20:34:14:121	674	round found 1 shares
+20:34:14:127	2e5c	01/10/18-20:34:14 - SHARE FOUND (target 470) - (THR 0 of 3)
+20:34:14:130	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "714145150873810", "nonce": "64020000", "result": "c801174c4b8d2516e257f438a18e7cb74aecaaf250f230ac4c8a8e22eb2d2300"}, "id":4}
+
+20:34:14:204	2e5c	got 63 bytes
+20:34:14:208	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:34:14:210	2e5c	parse packet: 63
+20:34:14:218	2e5c	Share accepted (78 ms)!
+20:34:14:220	2e5c	new buf size: 0
+20:34:24:975	2e5c	got 253 bytes
+20:34:24:980	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"01018fd2dbd205148be8a71c31acf45e5970eda2ac5d29f65078ccd27131cebb63cb35a7c7bb22000000003a7cea1d1063d6986dfec0857eb96714d63d65588da13dad91a8b71b14698c1614","job_id":"337302543618716","target":"03e65900"}}
+
+20:34:24:982	2e5c	parse packet: 253
+20:34:24:984	2e5c	new buf size: 0
+20:34:24:993	2e5c	01/10/18-20:34:24 - New job received from us-etn-pool.hashparty.io:3333
+20:34:25:021	2e5c	Speed: 31 h/s, TotalHashes: 12K, DevHashes: 0K Mining time:
+20:34:25:049	2e5c	00:06
+20:34:25:875	36a0	watchdog - thread 0, hb time 344
+20:34:25:877	36a0	watchdog - thread 1, hb time 484
+20:34:25:879	36a0	watchdog - thread 2, hb time 1890
+20:34:36:143	3208	round found 1 shares
+20:34:36:177	2e5c	01/10/18-20:34:36 - SHARE FOUND (target 729) - (THR 2 of 3)
+20:34:36:208	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "337302543618716", "nonce": "0d010000", "result": "b799d2b392f743fb33a3bd7f1b2bc59762278ffc68f7b08c91d6c2270f8c0d00"}, "id":4}
+
+20:34:36:294	2e5c	got 63 bytes
+20:34:36:296	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:34:36:298	2e5c	parse packet: 63
+20:34:36:333	2e5c	Share accepted (94 ms)!
+20:34:36:383	2e5c	new buf size: 0
+20:34:54:988	2e5c	got 253 bytes
+20:34:54:989	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"01018fd2dbd205148be8a71c31acf45e5970eda2ac5d29f65078ccd27131cebb63cb35a7c7bb22000000008e5bb00601d69ea7a72f4f3f2cc998cc76bdf54d1c1901772be33a6e9c86e1ff14","job_id":"464495513821020","target":"f9dc8300"}}
+
+20:34:54:991	2e5c	parse packet: 253
+20:34:54:992	2e5c	new buf size: 0
+20:34:54:996	2e5c	01/10/18-20:34:54 - New job received from us-etn-pool.hashparty.io:3333
+20:34:54:998	2e5c	Speed: 42 h/s, TotalHashes: 13K, DevHashes: 0K Mining time:
+20:34:55:001	2e5c	00:06
+20:34:55:965	36a0	watchdog - thread 0, hb time 469
+20:34:55:966	36a0	watchdog - thread 1, hb time 469
+20:34:55:968	36a0	watchdog - thread 2, hb time 859
+20:35:15:716	27f4	got 254 bytes
+20:35:15:717	27f4	buf: {"params":{"job_id":"0000000c86cbf38d","blob":"0101ebd2dbd20596122a8e6f94727983f706a2941071cbc3b168d955b687112a0e5dc4b7263554000000fb69154fd1c5e17719744b21141390e6cb5f6153491e311857e7f6c83feecc608135","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:35:15:719	27f4	parse packet: 254
+20:35:15:720	27f4	new buf size: 0
+20:35:15:722	27f4	DevFee: 01/10/18-20:35:15 - New job received from cryptonight.usa.nicehash.com:3355
+20:35:22:066	2e5c	got 253 bytes
+20:35:22:069	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"010189d3dbd20596122a8e6f94727983f706a2941071cbc3b168d955b687112a0e5dc4b726355400000000f5aa7559cb86fce9efd66051e5c3a5f20aeb6ecbd10bf7ee1a15dca9378a9f1235","job_id":"503010457591153","target":"f9dc8300"}}
+
+20:35:22:077	2e5c	parse packet: 253
+20:35:22:080	2e5c	new buf size: 0
+20:35:22:113	2e5c	01/10/18-20:35:22 - New job received from us-etn-pool.hashparty.io:3333
+20:35:22:154	2e5c	Speed: 27 h/s, TotalHashes: 14K, DevHashes: 0K Mining time:
+20:35:22:163	2e5c	00:07
+20:35:25:057	2e5c	got 253 bytes
+20:35:25:060	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"010189d3dbd20596122a8e6f94727983f706a2941071cbc3b168d955b687112a0e5dc4b7263554000000001279a4838803bd014b5c807c716b59c506540d6559bf4d67ecdce26b177a4e9135","job_id":"739674686803482","target":"1ad0a601"}}
+
+20:35:25:062	2e5c	parse packet: 253
+20:35:25:067	2e5c	new buf size: 0
+20:35:25:102	2e5c	01/10/18-20:35:25 - New job received from us-etn-pool.hashparty.io:3333
+20:35:25:118	2e5c	Speed: 34 h/s, TotalHashes: 14K, DevHashes: 0K Mining time:
+20:35:25:139	2e5c	00:07
+20:35:26:043	36a0	watchdog - thread 0, hb time 625
+20:35:26:045	36a0	watchdog - thread 1, hb time 1875
+20:35:26:047	36a0	watchdog - thread 2, hb time 922
+20:35:30:313	2824	round found 1 shares
+20:35:30:353	2e5c	01/10/18-20:35:30 - SHARE FOUND (target 155) - (THR 1 of 3)
+20:35:30:380	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "739674686803482", "nonce": "70000000", "result": "8e7b0b97126ebb7bc3e9cb4b044021dc2fa6bb884288c56ac795982bc6320f00"}, "id":4}
+
+20:35:30:456	2e5c	got 63 bytes
+20:35:30:458	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:35:30:460	2e5c	parse packet: 63
+20:35:30:468	2e5c	Share accepted (78 ms)!
+20:35:30:471	2e5c	new buf size: 0
+20:35:30:832	2824	round found 1 shares
+20:35:30:837	2e5c	01/10/18-20:35:30 - SHARE FOUND (target 155) - (THR 1 of 3)
+20:35:30:841	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "739674686803482", "nonce": "82000000", "result": "d7ae94a0f135ff61241e7cdd62e471eb7cd1d1e1d612cbde2b0b4c2f07a9e800"}, "id":4}
+
+20:35:30:929	2e5c	got 63 bytes
+20:35:30:931	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:35:30:932	2e5c	parse packet: 63
+20:35:30:938	2e5c	Share accepted (94 ms)!
+20:35:30:941	2e5c	new buf size: 0
+20:35:43:569	674	round found 1 shares
+20:35:43:572	2e5c	01/10/18-20:35:43 - SHARE FOUND (target 155) - (THR 0 of 3)
+20:35:43:577	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "739674686803482", "nonce": "34020000", "result": "1944b3fa4f5f329af5461f3ae5efcde6439bd486bbf04868e2ae721ca6468900"}, "id":4}
+
+20:35:43:653	2e5c	got 63 bytes
+20:35:43:656	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:35:43:661	2e5c	parse packet: 63
+20:35:43:665	2e5c	Share accepted (78 ms)!
+20:35:43:668	2e5c	new buf size: 0
+20:35:45:186	2824	round found 1 shares
+20:35:45:187	2e5c	01/10/18-20:35:45 - SHARE FOUND (target 155) - (THR 1 of 3)
+20:35:45:191	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "739674686803482", "nonce": "4d020000", "result": "bdeb4970cdff0a64d61976ebecb95fc32808fc1baf373055035a3f209e41be00"}, "id":4}
+
+20:35:45:310	2e5c	got 63 bytes
+20:35:45:312	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:35:45:314	2e5c	parse packet: 63
+20:35:45:317	2e5c	Share accepted (110 ms)!
+20:35:45:321	2e5c	new buf size: 0
+20:35:48:556	2824	round found 1 shares
+20:35:48:560	2e5c	01/10/18-20:35:48 - SHARE FOUND (target 155) - (THR 1 of 3)
+20:35:48:563	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "739674686803482", "nonce": "ce020000", "result": "022b2b7dc447ddae6281684e23f0cc63b3f3a2dfde8669f39fdfb384cc0d8f01"}, "id":4}
+
+20:35:48:637	2e5c	got 63 bytes
+20:35:48:639	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:35:48:641	2e5c	parse packet: 63
+20:35:48:648	2e5c	Share accepted (78 ms)!
+20:35:48:650	2e5c	new buf size: 0
+20:35:53:231	2824	round found 1 shares
+20:35:53:234	2e5c	01/10/18-20:35:53 - SHARE FOUND (target 155) - (THR 1 of 3)
+20:35:53:236	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "739674686803482", "nonce": "79030000", "result": "2b23ec987dd86740382543ab1835b4e49786faca9314e8f6f67405e4c458f800"}, "id":4}
+
+20:35:53:322	2e5c	got 63 bytes
+20:35:53:323	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:35:53:325	2e5c	parse packet: 63
+20:35:53:344	2e5c	Share accepted (93 ms)!
+20:35:53:346	2e5c	new buf size: 0
+20:35:55:113	2e5c	got 253 bytes
+20:35:55:114	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"010189d3dbd20596122a8e6f94727983f706a2941071cbc3b168d955b687112a0e5dc4b726355400000000474f8e32865b2899e836eb6ae5805e6995f6fdda1d4e064db40585e5964e6b2c35","job_id":"373241529683582","target":"0d68d300"}}
+
+20:35:55:116	2e5c	parse packet: 253
+20:35:55:117	2e5c	new buf size: 0
+20:35:55:120	2e5c	01/10/18-20:35:55 - New job received from us-etn-pool.hashparty.io:3333
+20:35:55:123	2e5c	Speed: 35 h/s, TotalHashes: 15K, DevHashes: 0K Mining time:
+20:35:55:129	2e5c	00:08
+20:35:56:108	36a0	watchdog - thread 0, hb time 422
+20:35:56:110	36a0	watchdog - thread 1, hb time 1016
+20:35:56:111	36a0	watchdog - thread 2, hb time 1141
+20:35:56:171	2824	round found 1 shares
+20:35:56:173	2e5c	Outdated share found - skip
+20:36:03:483	2824	round found 1 shares
+20:36:03:489	2e5c	01/10/18-20:36:03 - SHARE FOUND (target 310) - (THR 1 of 3)
+20:36:03:491	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "373241529683582", "nonce": "03010000", "result": "b8d609420f506c7a6cea0740185c38bddce54f60ed6f2823ec7e056182a81200"}, "id":4}
+
+20:36:03:625	2e5c	got 63 bytes
+20:36:03:629	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:36:03:630	2e5c	parse packet: 63
+20:36:03:635	2e5c	Share accepted (125 ms)!
+20:36:03:637	2e5c	new buf size: 0
+20:36:11:544	27f4	got 254 bytes
+20:36:11:547	27f4	buf: {"params":{"job_id":"0000000c86cd61c1","blob":"0101a3d3dbd205efc6f9bb49939cb3ea2242603517c9fbc3e1a5bff96f4035f0c587eb20b781bf000000fbab6550b9a70a02e99038154091d5cbd136cdd917b0392690bea3ac641f2a5e470f","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:36:11:550	27f4	parse packet: 254
+20:36:11:552	27f4	new buf size: 0
+20:36:11:553	27f4	DevFee: 01/10/18-20:36:11 - New job received from cryptonight.usa.nicehash.com:3355
+20:36:13:367	2824	round found 1 shares
+20:36:13:369	2e5c	01/10/18-20:36:13 - SHARE FOUND (target 310) - (THR 1 of 3)
+20:36:13:372	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "373241529683582", "nonce": "7d020000", "result": "fb601a75f326d216abfb51751f5906b2969750d56af7d79ed946bcfedb047c00"}, "id":4}
+
+20:36:13:449	2e5c	got 63 bytes
+20:36:13:451	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:36:13:452	2e5c	parse packet: 63
+20:36:13:461	2e5c	Share accepted (78 ms)!
+20:36:13:464	2e5c	new buf size: 0
+20:36:18:878	674	round found 1 shares
+20:36:18:879	2e5c	01/10/18-20:36:18 - SHARE FOUND (target 310) - (THR 0 of 3)
+20:36:18:886	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "373241529683582", "nonce": "81030000", "result": "b87c6de2610cec02c1ef185870baaa8b545a895bfbed109dccbdef7aa22bb600"}, "id":4}
+
+20:36:18:961	2e5c	got 63 bytes
+20:36:18:964	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:36:18:966	2e5c	parse packet: 63
+20:36:18:970	2e5c	Share accepted (78 ms)!
+20:36:18:972	2e5c	new buf size: 0
+20:36:21:263	2e5c	got 253 bytes
+20:36:21:265	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101c4d3dbd205efc6f9bb49939cb3ea2242603517c9fbc3e1a5bff96f4035f0c587eb20b781bf000000001f8acdfcff476c5ca38789d1f3db130eb267094b66c0b35fffad6dc47212b16d0e","job_id":"111094019236043","target":"0d68d300"}}
+
+20:36:21:266	2e5c	parse packet: 253
+20:36:21:268	2e5c	new buf size: 0
+20:36:21:274	2e5c	01/10/18-20:36:21 - New job received from us-etn-pool.hashparty.io:3333
+20:36:21:279	2e5c	Speed: 35 h/s, TotalHashes: 16K, DevHashes: 0K Mining time:
+20:36:21:282	2e5c	00:08
+20:36:21:898	2824	round found 1 shares
+20:36:21:903	2e5c	Outdated share found - skip
+20:36:25:153	2e5c	got 253 bytes
+20:36:25:155	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101c4d3dbd205efc6f9bb49939cb3ea2242603517c9fbc3e1a5bff96f4035f0c587eb20b781bf00000000e6ccb73b7947c984957c95c20f6355e11a05e7ce3e369c5116886b9598e308610e","job_id":"980186596396379","target":"b2727500"}}
+
+20:36:25:156	2e5c	parse packet: 253
+20:36:25:158	2e5c	new buf size: 0
+20:36:25:165	2e5c	01/10/18-20:36:25 - New job received from us-etn-pool.hashparty.io:3333
+20:36:25:170	2e5c	Speed: 32 h/s, TotalHashes: 16K, DevHashes: 0K Mining time:
+20:36:25:172	2e5c	00:08
+20:36:26:118	36a0	watchdog - thread 0, hb time 188
+20:36:26:120	36a0	watchdog - thread 1, hb time 360
+20:36:26:122	36a0	watchdog - thread 2, hb time 891
+20:36:49:868	2824	round found 1 shares
+20:36:49:914	2e5c	01/10/18-20:36:49 - SHARE FOUND (target 558) - (THR 1 of 3)
+20:36:49:943	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "980186596396379", "nonce": "8f020000", "result": "9ee4875d46507efff3e7e0cf0a63cb8a99b1fae3a16c22e3bab568b1f23a1900"}, "id":4}
+
+20:36:50:048	2e5c	got 63 bytes
+20:36:50:050	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:36:50:053	2e5c	parse packet: 63
+20:36:50:059	2e5c	Share accepted (109 ms)!
+20:36:50:064	2e5c	new buf size: 0
+20:36:55:180	2e5c	got 253 bytes
+20:36:55:181	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101c4d3dbd205efc6f9bb49939cb3ea2242603517c9fbc3e1a5bff96f4035f0c587eb20b781bf00000000e718e376464363c46a70c36af797ff44594d72183678026d6fefb7c09142436f0e","job_id":"477068326040171","target":"2c23fa00"}}
+
+20:36:55:183	2e5c	parse packet: 253
+20:36:55:184	2e5c	new buf size: 0
+20:36:55:191	2e5c	01/10/18-20:36:55 - New job received from us-etn-pool.hashparty.io:3333
+20:36:55:193	2e5c	Speed: 43 h/s, TotalHashes: 17K, DevHashes: 0K Mining time:
+20:36:55:198	2e5c	00:09
+20:36:56:151	36a0	watchdog - thread 0, hb time 563
+20:36:56:153	36a0	watchdog - thread 1, hb time 391
+20:36:56:155	36a0	watchdog - thread 2, hb time 485
+20:36:56:880	2824	round found 1 shares
+20:36:56:882	2e5c	01/10/18-20:36:56 - SHARE FOUND (target 262) - (THR 1 of 3)
+20:36:56:886	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "477068326040171", "nonce": "25000000", "result": "27a07210a5df2a9e7e6d85248c62e8ff61081449c9efe59151b88797a11d8800"}, "id":4}
+
+20:36:56:964	2e5c	got 63 bytes
+20:36:56:966	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:36:56:967	2e5c	parse packet: 63
+20:36:56:970	2e5c	Share accepted (78 ms)!
+20:36:56:974	2e5c	new buf size: 0
+20:36:58:183	674	round found 1 shares
+20:36:58:198	2e5c	01/10/18-20:36:58 - SHARE FOUND (target 262) - (THR 0 of 3)
+20:36:58:201	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "477068326040171", "nonce": "63000000", "result": "3194c30d82e50cd8154bdc42e14aa62ceae4d63e334c66274f928b77eb611900"}, "id":4}
+
+20:36:58:287	2e5c	got 63 bytes
+20:36:58:289	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:36:58:290	2e5c	parse packet: 63
+20:36:58:295	2e5c	Share accepted (78 ms)!
+20:36:58:298	2e5c	new buf size: 0
+20:37:01:055	3208	round found 1 shares
+20:37:01:059	2e5c	01/10/18-20:37:01 - SHARE FOUND (target 262) - (THR 2 of 3)
+20:37:01:062	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "477068326040171", "nonce": "c5000000", "result": "67b99913e9ca4e87ffb5c6193db01cc9006bc6be85563a9c3e43f02b2622a900"}, "id":4}
+
+20:37:01:136	2e5c	got 63 bytes
+20:37:01:138	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:37:01:139	2e5c	parse packet: 63
+20:37:01:147	2e5c	Share accepted (78 ms)!
+20:37:01:149	2e5c	new buf size: 0
+20:37:01:254	674	round found 1 shares
+20:37:01:257	2e5c	01/10/18-20:37:01 - SHARE FOUND (target 262) - (THR 0 of 3)
+20:37:01:261	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "477068326040171", "nonce": "e7000000", "result": "12fe59803d419b05c04270bb91d72cd2ab619addfc4ba61be3476493e9549e00"}, "id":4}
+
+20:37:01:348	2e5c	got 63 bytes
+20:37:01:349	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:37:01:351	2e5c	parse packet: 63
+20:37:01:357	2e5c	Share accepted (78 ms)!
+20:37:01:359	2e5c	new buf size: 0
+20:37:12:432	674	round found 1 shares
+20:37:12:463	2e5c	01/10/18-20:37:12 - SHARE FOUND (target 262) - (THR 0 of 3)
+20:37:12:536	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "477068326040171", "nonce": "10020000", "result": "6f8e864f75e9e3d019ac36110cdbca8b3d95eeb6269a1dde78c2724f54ab9a00"}, "id":4}
+
+20:37:12:667	2e5c	got 63 bytes
+20:37:12:670	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:37:12:672	2e5c	parse packet: 63
+20:37:12:724	2e5c	Share accepted (141 ms)!
+20:37:12:749	2e5c	new buf size: 0
+20:37:25:213	2e5c	got 253 bytes
+20:37:25:219	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101c4d3dbd205efc6f9bb49939cb3ea2242603517c9fbc3e1a5bff96f4035f0c587eb20b781bf00000000521ed6a74a3ce0e45df5594b2f898253abdf52cda9ca19f88bfb390181d2cfa20e","job_id":"213683190918527","target":"96117d00"}}
+
+20:37:25:220	2e5c	parse packet: 253
+20:37:25:222	2e5c	new buf size: 0
+20:37:25:236	2e5c	01/10/18-20:37:25 - New job received from us-etn-pool.hashparty.io:3333
+20:37:25:240	2e5c	Speed: 22 h/s, TotalHashes: 18K, DevHashes: 0K Mining time:
+20:37:25:243	2e5c	00:09
+20:37:26:188	36a0	watchdog - thread 0, hb time 2516
+20:37:26:189	36a0	watchdog - thread 1, hb time 1907
+20:37:26:191	36a0	watchdog - thread 2, hb time 1766
+20:37:55:251	2e5c	got 253 bytes
+20:37:55:253	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101c4d3dbd205efc6f9bb49939cb3ea2242603517c9fbc3e1a5bff96f4035f0c587eb20b781bf00000000ed5fb2297437b12b98bb29915572abd950d1db77780277a5bb5ba37b13c2e0270e","job_id":"451486372831277","target":"c61e6601"}}
+
+20:37:55:254	2e5c	parse packet: 253
+20:37:55:256	2e5c	new buf size: 0
+20:37:55:268	2e5c	01/10/18-20:37:55 - New job received from us-etn-pool.hashparty.io:3333
+20:37:55:271	2e5c	Speed: 16 h/s, TotalHashes: 18K, DevHashes: 0K Mining time:
+20:37:55:274	2e5c	00:10
+20:37:56:200	36a0	watchdog - thread 0, hb time 687
+20:37:56:202	36a0	watchdog - thread 1, hb time 2062
+20:37:56:204	36a0	watchdog - thread 2, hb time 93
+20:37:56:790	27f4	got 254 bytes
+20:37:56:795	27f4	buf: {"params":{"job_id":"0000000c86cf8df8","blob":"0101bdd3dbd205efc6f9bb49939cb3ea2242603517c9fbc3e1a5bff96f4035f0c587eb20b781bf0000008be699dc16f3953dd8f02a2b07a77091d5023110582852eadae1a13e004b26e1d00f","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:37:56:801	27f4	parse packet: 254
+20:37:56:803	27f4	new buf size: 0
+20:37:56:806	27f4	DevFee: 01/10/18-20:37:56 - New job received from cryptonight.usa.nicehash.com:3355
+20:37:57:273	674	round found 1 shares
+20:37:57:279	2e5c	01/10/18-20:37:57 - SHARE FOUND (target 183) - (THR 0 of 3)
+20:37:57:282	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "451486372831277", "nonce": "2d000000", "result": "5ba73b72ec91140b55eb97568bc8c387a1a24dcdf567957ad0f295138d763600"}, "id":4}
+
+20:37:57:362	2e5c	got 63 bytes
+20:37:57:365	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:37:57:367	2e5c	parse packet: 63
+20:37:57:410	2e5c	Share accepted (79 ms)!
+20:37:57:427	2e5c	new buf size: 0
+20:37:58:452	27f4	socket was closed remotely
+20:37:58:458	27f4	DevFee:  Connection lost, retry in 20 sec...
+20:38:00:282	2824	round found 1 shares
+20:38:00:290	2e5c	01/10/18-20:38:00 - SHARE FOUND (target 183) - (THR 1 of 3)
+20:38:00:293	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "451486372831277", "nonce": "67000000", "result": "fb94b0882886cfc9e2c1e6e44c7ff345468af571a9d3b9bbc712579624cc8f00"}, "id":4}
+
+20:38:00:367	2e5c	got 63 bytes
+20:38:00:369	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:38:00:370	2e5c	parse packet: 63
+20:38:00:375	2e5c	Share accepted (78 ms)!
+20:38:00:387	2e5c	new buf size: 0
+20:38:02:182	674	round found 1 shares
+20:38:02:219	2e5c	01/10/18-20:38:02 - SHARE FOUND (target 183) - (THR 0 of 3)
+20:38:02:278	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "451486372831277", "nonce": "c3000000", "result": "6d92cf0d26be53aa30eb16912b4f25a1b514efd0c14ca0279ee6c15eab6f2301"}, "id":4}
+
+20:38:02:359	2e5c	got 63 bytes
+20:38:02:362	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:38:02:364	2e5c	parse packet: 63
+20:38:02:391	2e5c	Share accepted (79 ms)!
+20:38:02:402	2e5c	new buf size: 0
+20:38:03:735	2824	round found 1 shares
+20:38:03:744	2e5c	01/10/18-20:38:03 - SHARE FOUND (target 183) - (THR 1 of 3)
+20:38:03:751	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "451486372831277", "nonce": "ca000000", "result": "8fc4513b69bd526bf2959600b5786684a98772afda5f84e75c57f756d12c1800"}, "id":4}
+
+20:38:03:893	2e5c	got 63 bytes
+20:38:03:894	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:38:03:896	2e5c	parse packet: 63
+20:38:03:921	2e5c	Share accepted (141 ms)!
+20:38:03:923	2e5c	new buf size: 0
+20:38:11:660	674	round found 1 shares
+20:38:11:670	2e5c	01/10/18-20:38:11 - SHARE FOUND (target 183) - (THR 0 of 3)
+20:38:11:672	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "451486372831277", "nonce": "ec010000", "result": "2bb6352cbfbd1892c60570a92131395bd34cd4b5b230359bcdc0102e54719700"}, "id":4}
+
+20:38:11:758	2e5c	got 63 bytes
+20:38:11:759	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:38:11:761	2e5c	parse packet: 63
+20:38:11:770	2e5c	Share accepted (94 ms)!
+20:38:11:773	2e5c	new buf size: 0
+20:38:11:950	674	round found 1 shares
+20:38:11:964	2e5c	01/10/18-20:38:11 - SHARE FOUND (target 183) - (THR 0 of 3)
+20:38:11:966	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "451486372831277", "nonce": "f8010000", "result": "c1d7509fd1e67046c1e20e8302ce5dc52244ed7d04a08f22a2561c7f7d4a2f00"}, "id":4}
+
+20:38:12:053	2e5c	got 63 bytes
+20:38:12:054	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:38:12:056	2e5c	parse packet: 63
+20:38:12:062	2e5c	Share accepted (78 ms)!
+20:38:12:065	2e5c	new buf size: 0
+20:38:14:970	2824	round found 1 shares
+20:38:14:978	2e5c	01/10/18-20:38:14 - SHARE FOUND (target 183) - (THR 1 of 3)
+20:38:14:981	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "451486372831277", "nonce": "41020000", "result": "9b7a9ece8fbbf7f911b5e93eb647fd66fc7a8ed2971b3226ad1c52cd163db500"}, "id":4}
+
+20:38:15:067	2e5c	got 63 bytes
+20:38:15:069	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:38:15:070	2e5c	parse packet: 63
+20:38:15:072	2e5c	Share accepted (78 ms)!
+20:38:15:076	2e5c	new buf size: 0
+20:38:18:513	27f4	DevFee: Stratum - connecting to 'xmr.suprnova.cc' <145.239.65.23> port 5222 (unsecure)
+20:38:21:068	674	round found 1 shares
+20:38:21:077	2e5c	01/10/18-20:38:21 - SHARE FOUND (target 183) - (THR 0 of 3)
+20:38:21:079	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "451486372831277", "nonce": "30030000", "result": "f09ffa3a51d06737717275dc74eca52cce75086e8752ad8be4de2d27a1ce5400"}, "id":4}
+
+20:38:21:165	2e5c	got 63 bytes
+20:38:21:167	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:38:21:168	2e5c	parse packet: 63
+20:38:21:174	2e5c	Share accepted (94 ms)!
+20:38:21:178	2e5c	new buf size: 0
+20:38:21:853	27f4	send: {"method": "login", "params": {"login": "claymore.cnfee", "pass": "x", "agent": "xmr/1.0"}, "id": 1}
+
+20:38:21:855	27f4	Stratum - Connected (unsecure)
+20:38:22:021	27f4	socket was closed remotely
+20:38:22:028	27f4	DevFee:  Job timeout, disconnect, retry in 20 sec...
+20:38:25:283	2e5c	got 253 bytes
+20:38:25:287	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101c4d3dbd205efc6f9bb49939cb3ea2242603517c9fbc3e1a5bff96f4035f0c587eb20b781bf000000001dc77241c278cfd98faa53912bfb4fe5b7a95fd7b62796876fd1bdacac19298e0e","job_id":"299464388238266","target":"630fb300"}}
+
+20:38:25:288	2e5c	parse packet: 253
+20:38:25:290	2e5c	new buf size: 0
+20:38:25:323	2e5c	01/10/18-20:38:25 - New job received from us-etn-pool.hashparty.io:3333
+20:38:25:389	2e5c	Speed: 26 h/s, TotalHashes: 19K, DevHashes: 0K Mining time:
+20:38:25:407	2e5c	00:10
+20:38:26:241	36a0	watchdog - thread 0, hb time 32
+20:38:26:243	36a0	watchdog - thread 1, hb time 938
+20:38:26:245	36a0	watchdog - thread 2, hb time 1079
+20:38:39:990	2e5c	got 253 bytes
+20:38:39:992	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101cfd4dbd20536785ce3dff274d12ef61a12a131b1d3118a79cbfe517dfc102a4ca13aeda0f000000000d8a85639aabd6a1fa8235caae8e1b34bbeaa24ee25cba19f1ded7345be48b1b90f","job_id":"273188123013824","target":"630fb300"}}
+
+20:38:39:994	2e5c	parse packet: 253
+20:38:39:995	2e5c	new buf size: 0
+20:38:40:001	2e5c	01/10/18-20:38:39 - New job received from us-etn-pool.hashparty.io:3333
+20:38:40:003	2e5c	Speed: 42 h/s, TotalHashes: 20K, DevHashes: 0K Mining time:
+20:38:40:006	2e5c	00:10
+20:38:42:131	27f4	DevFee: Stratum - connecting to 'cryptonight.usa.nicehash.com' <169.62.79.78> port 3355 (unsecure)
+20:38:43:648	674	round found 1 shares
+20:38:43:658	2e5c	01/10/18-20:38:43 - SHARE FOUND (target 366) - (THR 0 of 3)
+20:38:43:666	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "273188123013824", "nonce": "6c000000", "result": "c68b86f146f69440a29fbed6eb6d30e411a79b327e015d181ea58a94c0340a00"}, "id":4}
+
+20:38:43:749	2e5c	got 63 bytes
+20:38:43:750	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:38:43:752	2e5c	parse packet: 63
+20:38:43:762	2e5c	Share accepted (78 ms)!
+20:38:43:766	2e5c	new buf size: 0
+20:38:45:235	27f4	send: {"method": "login", "params": {"login": "1LmMNkiEvjapn5PRY8A9wypcWJveRrRGWr", "pass": "x", "agent": "xmr/1.0"}, "id": 1}
+
+20:38:45:239	27f4	Stratum - Connected (unsecure)
+20:38:45:334	27f4	got 304 bytes
+20:38:45:335	27f4	buf: {"jsonrpc":"2.0","id":1,"error":null,"result":{"id":"996885248274125","status":"OK","job":{"job_id":"0000000c86d139da","blob":"0101cad4dbd20536785ce3dff274d12ef61a12a131b1d3118a79cbfe517dfc102a4ca13aeda0f0000000f50787720d9ad57bbc14237dda81ad928d96ee06a36d582b74fcb3631303eea9b60f","target":"e2530000"}}}
+
+20:38:45:337	27f4	parse packet: 304
+20:38:45:339	27f4	new buf size: 0
+20:38:45:342	27f4	DevFee: Pool Diff 200008
+20:38:55:316	2e5c	got 253 bytes
+20:38:55:318	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101cfd4dbd20536785ce3dff274d12ef61a12a131b1d3118a79cbfe517dfc102a4ca13aeda0f000000000aba6618bcedc85a8a990148535b37bfcb4de17f7188ae127eb90f431a464e4240f","job_id":"296679301839321","target":"dd240601"}}
+
+20:38:55:322	2e5c	parse packet: 253
+20:38:55:324	2e5c	new buf size: 0
+20:38:55:337	2e5c	01/10/18-20:38:55 - New job received from us-etn-pool.hashparty.io:3333
+20:38:55:407	2e5c	Speed: 39 h/s, TotalHashes: 20K, DevHashes: 0K Mining time:
+20:38:55:424	2e5c	00:11
+20:38:56:298	36a0	watchdog - thread 0, hb time 1812
+20:38:56:300	36a0	watchdog - thread 1, hb time 1656
+20:38:56:303	36a0	watchdog - thread 2, hb time 312
+20:38:57:183	674	round found 1 shares
+20:38:57:201	2e5c	01/10/18-20:38:57 - SHARE FOUND (target 250) - (THR 0 of 3)
+20:38:57:203	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "296679301839321", "nonce": "1e000000", "result": "7cae0ecfe718e3470d9be41a213041afc700ddd91f6b7d723028f8c590701400"}, "id":4}
+
+20:38:57:336	2e5c	got 63 bytes
+20:38:57:337	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:38:57:339	2e5c	parse packet: 63
+20:38:57:343	2e5c	Share accepted (141 ms)!
+20:38:57:346	2e5c	new buf size: 0
+20:39:03:621	3208	round found 1 shares
+20:39:03:675	2e5c	01/10/18-20:39:03 - SHARE FOUND (target 250) - (THR 2 of 3)
+20:39:03:710	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "296679301839321", "nonce": "07010000", "result": "3e3be43ad150e670d33013395ed158defc3f380c67c6f88388649b0416f23f00"}, "id":4}
+
+20:39:03:795	2e5c	got 63 bytes
+20:39:03:798	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:39:03:801	2e5c	parse packet: 63
+20:39:03:845	2e5c	Share accepted (94 ms)!
+20:39:03:880	2e5c	new buf size: 0
+20:39:06:392	674	round found 1 shares
+20:39:06:402	2e5c	01/10/18-20:39:06 - SHARE FOUND (target 250) - (THR 0 of 3)
+20:39:06:404	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "296679301839321", "nonce": "62010000", "result": "0dc28d777b2e7d0e14d48532aa8411433b7d838e0b540c04a809d3250b297000"}, "id":4}
+
+20:39:06:523	2e5c	got 63 bytes
+20:39:06:525	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:39:06:528	2e5c	parse packet: 63
+20:39:06:749	2e5c	Share accepted (125 ms)!
+20:39:07:334	2e5c	new buf size: 0
+20:39:07:917	2824	round found 1 shares
+20:39:07:952	2e5c	01/10/18-20:39:07 - SHARE FOUND (target 250) - (THR 1 of 3)
+20:39:07:979	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "296679301839321", "nonce": "81010000", "result": "2ee7eb3c2fe0e5b9e7759e533c43c9b8ca7ceaab9c620fef32add02d50186500"}, "id":4}
+
+20:39:08:071	2e5c	got 63 bytes
+20:39:08:073	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:39:08:075	2e5c	parse packet: 63
+20:39:08:109	2e5c	Share accepted (93 ms)!
+20:39:08:158	2e5c	new buf size: 0
+20:39:12:549	674	round found 1 shares
+20:39:12:691	2e5c	01/10/18-20:39:12 - SHARE FOUND (target 250) - (THR 0 of 3)
+20:39:12:713	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "296679301839321", "nonce": "01020000", "result": "3d06f21259075bac122366ad616e049cab08feb78fe863b2d15c1d2600c44400"}, "id":4}
+
+20:39:12:790	2e5c	got 63 bytes
+20:39:12:794	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:39:12:798	2e5c	parse packet: 63
+20:39:13:024	2e5c	Share accepted (78 ms)!
+20:39:13:069	2e5c	new buf size: 0
+20:39:19:064	2824	round found 1 shares
+20:39:19:094	2e5c	01/10/18-20:39:19 - SHARE FOUND (target 250) - (THR 1 of 3)
+20:39:19:117	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "296679301839321", "nonce": "89020000", "result": "24dccba576e226ae1b2a2a0e19e9d2e0e473458b86f9b9ec5ff7926f5e866600"}, "id":4}
+
+20:39:19:222	2e5c	got 63 bytes
+20:39:19:223	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:39:19:225	2e5c	parse packet: 63
+20:39:19:319	2e5c	Share accepted (94 ms)!
+20:39:19:341	2e5c	new buf size: 0
+20:39:23:008	3208	round found 1 shares
+20:39:23:010	2e5c	01/10/18-20:39:23 - SHARE FOUND (target 250) - (THR 2 of 3)
+20:39:23:032	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "296679301839321", "nonce": "b4020000", "result": "75995f6a3d49dd7c8369d32d21d48a3355b116d1ab3372ead0e799390cca0301"}, "id":4}
+
+20:39:23:129	2e5c	got 63 bytes
+20:39:23:131	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:39:23:134	2e5c	parse packet: 63
+20:39:23:179	2e5c	Share accepted (94 ms)!
+20:39:23:209	2e5c	new buf size: 0
+20:39:25:346	2e5c	got 253 bytes
+20:39:25:347	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101cfd4dbd20536785ce3dff274d12ef61a12a131b1d3118a79cbfe517dfc102a4ca13aeda0f000000000369dfb0d1114eae94f94e9507f83ac924228a66cd08f8270bbfb7b37701e02bb0f","job_id":"802454884652979","target":"6e128300"}}
+
+20:39:25:362	2e5c	parse packet: 253
+20:39:25:363	2e5c	new buf size: 0
+20:39:25:412	2e5c	01/10/18-20:39:25 - New job received from us-etn-pool.hashparty.io:3333
+20:39:25:443	2e5c	Speed: 20 h/s, TotalHashes: 21K, DevHashes: 0K Mining time:
+20:39:25:480	2e5c	00:11
+20:39:26:008	3208	round found 1 shares
+20:39:26:044	2e5c	Outdated share found - skip
+20:39:26:349	36a0	watchdog - thread 0, hb time 1984
+20:39:26:353	36a0	watchdog - thread 1, hb time 1125
+20:39:26:355	36a0	watchdog - thread 2, hb time 1828
+20:39:28:828	3208	round found 1 shares
+20:39:28:893	2e5c	01/10/18-20:39:28 - SHARE FOUND (target 500) - (THR 2 of 3)
+20:39:28:961	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "802454884652979", "nonce": "20000000", "result": "05aec272617876b157accc712fc2f5a16d9093aed642e5de369059ffeee03c00"}, "id":4}
+
+20:39:29:167	2e5c	got 63 bytes
+20:39:29:170	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:39:29:172	2e5c	parse packet: 63
+20:39:29:220	2e5c	Share accepted (203 ms)!
+20:39:29:360	2e5c	new buf size: 0
+20:39:33:204	2824	round found 1 shares
+20:39:33:293	2e5c	01/10/18-20:39:33 - SHARE FOUND (target 500) - (THR 1 of 3)
+20:39:33:346	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "802454884652979", "nonce": "7f000000", "result": "ce76a99e9ab74b3b2ecebed04f6cf337a9881ec7b662115b6c757e0bdae32700"}, "id":4}
+
+20:39:33:438	2e5c	got 63 bytes
+20:39:33:439	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:39:33:441	2e5c	parse packet: 63
+20:39:33:484	2e5c	Share accepted (109 ms)!
+20:39:33:502	2e5c	new buf size: 0
+20:39:49:834	674	round found 1 shares
+20:39:49:839	2e5c	01/10/18-20:39:49 - SHARE FOUND (target 500) - (THR 0 of 3)
+20:39:49:842	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "802454884652979", "nonce": "ec010000", "result": "0d435e6bdb468b5e1a571b89b5bd6954b01bd956e21a8e0d12a3602469ea6800"}, "id":4}
+
+20:39:49:919	2e5c	got 63 bytes
+20:39:49:922	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:39:49:924	2e5c	parse packet: 63
+20:39:49:925	2e5c	Share accepted (78 ms)!
+20:39:49:927	2e5c	new buf size: 0
+20:39:55:382	2e5c	got 253 bytes
+20:39:55:384	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101cfd4dbd20536785ce3dff274d12ef61a12a131b1d3118a79cbfe517dfc102a4ca13aeda0f000000000467162dd584b29a38a59d7b0ac4cb454027a51130708bf7f9ff3f58a98f26c050f","job_id":"379042108426801","target":"a0c34b00"}}
+
+20:39:55:386	2e5c	parse packet: 253
+20:39:55:388	2e5c	new buf size: 0
+20:39:55:400	2e5c	01/10/18-20:39:55 - New job received from us-etn-pool.hashparty.io:3333
+20:39:55:407	2e5c	Speed: 26 h/s, TotalHashes: 22K, DevHashes: 0K Mining time:
+20:39:55:412	2e5c	00:12
+20:39:56:361	36a0	watchdog - thread 0, hb time 2563
+20:39:56:363	36a0	watchdog - thread 1, hb time 1860
+20:39:56:371	36a0	watchdog - thread 2, hb time 2610
+20:40:17:792	27f4	got 254 bytes
+20:40:17:804	27f4	buf: {"params":{"job_id":"0000000c86d2f001","blob":"0101b1d5dbd205435c1ffb7fe14b24eacebdb4b0cbbd597899fa60aad8dffa68b3e0d939987744000000f5aaeecf5e4d37be168e3798372f330a322854818ca6f391624da53d477057aea809","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:40:17:806	27f4	parse packet: 254
+20:40:17:808	27f4	new buf size: 0
+20:40:17:809	27f4	DevFee: 01/10/18-20:40:17 - New job received from cryptonight.usa.nicehash.com:3355
+20:40:25:407	2e5c	got 253 bytes
+20:40:25:408	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101cfd4dbd20536785ce3dff274d12ef61a12a131b1d3118a79cbfe517dfc102a4ca13aeda0f0000000004adf9e51884c2a5e36bcffc74b491d444e653713b4543f24ae609d1d66ece2280f","job_id":"352338355872780","target":"600bb600"}}
+
+20:40:25:410	2e5c	parse packet: 253
+20:40:25:411	2e5c	new buf size: 0
+20:40:25:427	2e5c	01/10/18-20:40:25 - New job received from us-etn-pool.hashparty.io:3333
+20:40:25:512	2e5c	Speed: 21 h/s, TotalHashes: 22K, DevHashes: 0K Mining time:
+20:40:25:558	2e5c	00:12
+20:40:26:377	36a0	watchdog - thread 0, hb time 15
+20:40:26:379	36a0	watchdog - thread 1, hb time 2047
+20:40:26:380	36a0	watchdog - thread 2, hb time 344
+20:40:27:776	2e5c	got 253 bytes
+20:40:27:811	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101bbd5dbd205435c1ffb7fe14b24eacebdb4b0cbbd597899fa60aad8dffa68b3e0d939987744000000008eb4822659d680396638202aa265678e355c5b3a2a803393eee591a9d018c58a09","job_id":"282717801257967","target":"600bb600"}}
+
+20:40:27:813	2e5c	parse packet: 253
+20:40:27:814	2e5c	new buf size: 0
+20:40:27:879	2e5c	01/10/18-20:40:27 - New job received from us-etn-pool.hashparty.io:3333
+20:40:27:926	2e5c	Speed: 21 h/s, TotalHashes: 23K, DevHashes: 0K Mining time:
+20:40:27:955	2e5c	00:12
+20:40:28:832	3208	round found 1 shares
+20:40:28:859	2e5c	Outdated share found - skip
+20:40:30:867	27f4	got 254 bytes
+20:40:30:875	27f4	buf: {"params":{"job_id":"0000000c86d4685a","blob":"0101b1d5dbd205435c1ffb7fe14b24eacebdb4b0cbbd597899fa60aad8dffa68b3e0d939987744000000d79248fb04486176ad5ed6ab0b893d116fa0b1205c51a19dac3bd3ab073309b92909","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:40:30:876	27f4	parse packet: 254
+20:40:30:878	27f4	new buf size: 0
+20:40:30:880	27f4	DevFee: 01/10/18-20:40:30 - New job received from cryptonight.usa.nicehash.com:3355
+20:40:37:801	27f4	got 254 bytes
+20:40:37:807	27f4	buf: {"params":{"job_id":"0000000c86d4f04e","blob":"0101c4d5dbd205765815831b252f598e9eeba7fe345d7098b2143cb766a36a6009a9c400d9df2d000000d7e872df62d65c7efb592418bd0222c48771ba3eca829e2084d3101c2c89d37c260b","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:40:37:808	27f4	parse packet: 254
+20:40:37:810	27f4	new buf size: 0
+20:40:37:811	27f4	DevFee: 01/10/18-20:40:37 - New job received from cryptonight.usa.nicehash.com:3355
+20:40:43:181	2e5c	got 253 bytes
+20:40:43:184	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101cad5dbd205765815831b252f598e9eeba7fe345d7098b2143cb766a36a6009a9c400d9df2d0000000099cf4d7bda4ee87b6739ae60827ff9cda91449b0d713678e55997008663b73de0b","job_id":"114496394875459","target":"600bb600"}}
+
+20:40:43:188	2e5c	parse packet: 253
+20:40:43:190	2e5c	new buf size: 0
+20:40:43:191	2824	round found 1 shares
+20:40:43:228	2e5c	01/10/18-20:40:43 - New job received from us-etn-pool.hashparty.io:3333
+20:40:43:274	2e5c	Speed: 17 h/s, TotalHashes: 23K, DevHashes: 0K Mining time:
+20:40:43:311	2e5c	00:12
+20:40:43:425	2e5c	Outdated share found - skip
+20:40:44:729	27f4	got 254 bytes
+20:40:44:731	27f4	buf: {"params":{"job_id":"0000000c86d5cb60","blob":"0101ccd5dbd2052adb8d07e3535631c40988e3bbdf156cf27fd14da7f5381ff6ff4e037e3b7e16000000d7c3f66c8e70efecf30f96d72dc8c67716654a0ad1f796fa3dc84fb2f1270cb2500c","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:40:44:732	27f4	parse packet: 254
+20:40:44:734	27f4	new buf size: 0
+20:40:44:738	27f4	DevFee: 01/10/18-20:40:44 - New job received from cryptonight.usa.nicehash.com:3355
+20:40:49:909	2e5c	got 253 bytes
+20:40:49:910	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101d1d5dbd2052adb8d07e3535631c40988e3bbdf156cf27fd14da7f5381ff6ff4e037e3b7e160000000054e548f8069c7f598a09e5265e4fa131070fa3ee6fd2d2fcdb96be3d5115a2790c","job_id":"137209947872906","target":"600bb600"}}
+
+20:40:49:912	2e5c	parse packet: 253
+20:40:49:916	2e5c	new buf size: 0
+20:40:49:958	2e5c	01/10/18-20:40:49 - New job received from us-etn-pool.hashparty.io:3333
+20:40:50:001	2e5c	Speed: 20 h/s, TotalHashes: 23K, DevHashes: 0K Mining time:
+20:40:50:047	2e5c	00:12
+20:40:55:492	2e5c	got 253 bytes
+20:40:55:495	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101d1d5dbd2052adb8d07e3535631c40988e3bbdf156cf27fd14da7f5381ff6ff4e037e3b7e1600000000487ba2580f01d747dbb9ea7770da78b31e738df0dd0afb7bcebc8dae7b33f00f0c","job_id":"155299907922744","target":"c1166c01"}}
+
+20:40:55:497	2e5c	parse packet: 253
+20:40:55:499	2e5c	new buf size: 0
+20:40:55:526	2e5c	01/10/18-20:40:55 - New job received from us-etn-pool.hashparty.io:3333
+20:40:55:579	2e5c	Speed: 17 h/s, TotalHashes: 23K, DevHashes: 0K Mining time:
+20:40:55:608	2e5c	00:13
+20:40:56:386	36a0	watchdog - thread 0, hb time 656
+20:40:56:387	36a0	watchdog - thread 1, hb time 2515
+20:40:56:390	36a0	watchdog - thread 2, hb time 1812
+20:41:00:748	674	round found 1 shares
+20:41:00:796	2e5c	01/10/18-20:41:00 - SHARE FOUND (target 180) - (THR 0 of 3)
+20:41:00:813	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "155299907922744", "nonce": "63000000", "result": "13c97a8fad21a441d92564f7f93e5cadccb38a83c855ed61f938d9a5e473f800"}, "id":4}
+
+20:41:00:915	2e5c	got 63 bytes
+20:41:00:917	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:41:00:919	2e5c	parse packet: 63
+20:41:00:983	2e5c	Share accepted (109 ms)!
+20:41:01:023	2e5c	new buf size: 0
+20:41:01:231	674	round found 1 shares
+20:41:01:302	2e5c	01/10/18-20:41:01 - SHARE FOUND (target 180) - (THR 0 of 3)
+20:41:01:329	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "155299907922744", "nonce": "6c000000", "result": "44e3e13889c81e7edd46d2c2cb7497f8ae7b662dd0accdd47911a9d6f75e2d01"}, "id":4}
+
+20:41:01:424	2e5c	got 63 bytes
+20:41:01:426	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:41:01:427	2e5c	parse packet: 63
+20:41:01:441	2e5c	Share accepted (94 ms)!
+20:41:01:460	2e5c	new buf size: 0
+20:41:03:407	2824	round found 1 shares
+20:41:03:498	2e5c	01/10/18-20:41:03 - SHARE FOUND (target 180) - (THR 1 of 3)
+20:41:03:551	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "155299907922744", "nonce": "79000000", "result": "be561e8844b5bf5c4be408f65b7867cac1513e152001f6c10de83274e93f1f01"}, "id":4}
+
+20:41:03:753	2e5c	got 63 bytes
+20:41:03:754	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:41:03:758	2e5c	parse packet: 63
+20:41:03:806	2e5c	Share accepted (203 ms)!
+20:41:03:865	2e5c	new buf size: 0
+20:41:15:184	674	round found 1 shares
+20:41:15:233	2e5c	01/10/18-20:41:15 - SHARE FOUND (target 180) - (THR 0 of 3)
+20:41:15:345	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "155299907922744", "nonce": "98010000", "result": "c388e18b28b3032793b82adea8b2dfa38d66e0001ba96c57e2b6613cdd96ba00"}, "id":4}
+
+20:41:15:440	2e5c	got 63 bytes
+20:41:15:443	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:41:15:445	2e5c	parse packet: 63
+20:41:15:493	2e5c	Share accepted (94 ms)!
+20:41:15:506	2e5c	new buf size: 0
+20:41:25:476	2e5c	got 253 bytes
+20:41:25:481	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101d1d5dbd2052adb8d07e3535631c40988e3bbdf156cf27fd14da7f5381ff6ff4e037e3b7e1600000000297316021c868ed39193de61e69152f888d4e5043c0fb7cfa8c9be3db92ec6c90c","job_id":"564995185798034","target":"600bb600"}}
+
+20:41:25:483	2e5c	parse packet: 253
+20:41:25:485	2e5c	new buf size: 0
+20:41:25:511	2e5c	01/10/18-20:41:25 - New job received from us-etn-pool.hashparty.io:3333
+20:41:25:562	2e5c	Speed: 35 h/s, TotalHashes: 24K, DevHashes: 0K Mining time:
+20:41:25:599	2e5c	00:13
+20:41:26:281	674	round found 1 shares
+20:41:26:314	2e5c	Outdated share found - skip
+20:41:26:413	36a0	watchdog - thread 0, hb time 125
+20:41:26:415	36a0	watchdog - thread 1, hb time 796
+20:41:26:416	36a0	watchdog - thread 2, hb time 687
+20:41:28:377	2824	round found 1 shares
+20:41:28:399	2e5c	01/10/18-20:41:28 - SHARE FOUND (target 360) - (THR 1 of 3)
+20:41:28:437	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "564995185798034", "nonce": "49000000", "result": "73e69210c0c71538920bbf4efce4af7e1a3f5139f074e2a997c70a4832f12d00"}, "id":4}
+
+20:41:28:554	2e5c	got 63 bytes
+20:41:28:562	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:41:28:565	2e5c	parse packet: 63
+20:41:28:603	2e5c	Share accepted (125 ms)!
+20:41:28:628	2e5c	new buf size: 0
+20:41:37:269	27f4	got 254 bytes
+20:41:37:273	27f4	buf: {"params":{"job_id":"0000000c86d7f47c","blob":"010180d6dbd205e9766815d2d8a872864612694384506e98fcb207b847ac5473d940b28dcc317c000000d733dacf88006dace0e50e13e5ee566a869d70850251d61d9f75403ce0f86b638b09","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:41:37:275	27f4	parse packet: 254
+20:41:37:278	27f4	new buf size: 0
+20:41:37:280	27f4	DevFee: 01/10/18-20:41:37 - New job received from cryptonight.usa.nicehash.com:3355
+20:41:38:852	2e5c	got 253 bytes
+20:41:38:854	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"010182d6dbd205e9766815d2d8a872864612694384506e98fcb207b847ac5473d940b28dcc317c000000005cf30abe175bd51dcfea40daa2597ef0b55a6e1dcb655db5cd12f28974272c9f08","job_id":"893757338402792","target":"600bb600"}}
+
+20:41:38:857	2e5c	parse packet: 253
+20:41:38:859	2e5c	new buf size: 0
+20:41:38:897	2e5c	01/10/18-20:41:38 - New job received from us-etn-pool.hashparty.io:3333
+20:41:38:901	2e5c	Speed: 25 h/s, TotalHashes: 24K, DevHashes: 0K Mining time:
+20:41:38:940	2e5c	00:13
+20:41:48:246	27f4	got 254 bytes
+20:41:48:248	27f4	buf: {"params":{"job_id":"0000000c86d89ba4","blob":"01018bd6dbd20518ebbe265fa8cf79a38e8b487abe62ba48a8744335d8feb5895c8f7c953d8867000000d770f33e51c7d30cdd0b9383878367ca3d581ba4ded65035698ac350ae2dc23e1403","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:41:48:279	27f4	parse packet: 254
+20:41:48:282	27f4	new buf size: 0
+20:41:48:283	27f4	DevFee: 01/10/18-20:41:48 - New job received from cryptonight.usa.nicehash.com:3355
+20:41:51:373	2e5c	got 253 bytes
+20:41:51:394	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"01018fd6dbd20518ebbe265fa8cf79a38e8b487abe62ba48a8744335d8feb5895c8f7c953d886700000000f674420d2ff696756baebce92593a6b4b699ec945e655e78402959a10585f64a03","job_id":"860861178068444","target":"600bb600"}}
+
+20:41:51:397	2e5c	parse packet: 253
+20:41:51:399	2e5c	new buf size: 0
+20:41:51:439	2e5c	01/10/18-20:41:51 - New job received from us-etn-pool.hashparty.io:3333
+20:41:51:477	2e5c	Speed: 21 h/s, TotalHashes: 24K, DevHashes: 0K Mining time:
+20:41:51:518	2e5c	00:13
+20:41:55:493	2e5c	got 253 bytes
+20:41:55:496	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"01018fd6dbd20518ebbe265fa8cf79a38e8b487abe62ba48a8744335d8feb5895c8f7c953d8867000000002f759ea851cb2efaee48258e88bb4c21d368f2fb9a530843d1cd37eed035657603","job_id":"693271677708253","target":"d6b9f200"}}
+
+20:41:55:498	2e5c	parse packet: 253
+20:41:55:500	2e5c	new buf size: 0
+20:41:55:522	2e5c	01/10/18-20:41:55 - New job received from us-etn-pool.hashparty.io:3333
+20:41:55:570	2e5c	Speed: 23 h/s, TotalHashes: 25K, DevHashes: 0K Mining time:
+20:41:55:603	2e5c	00:14
+20:41:56:442	36a0	watchdog - thread 0, hb time 203
+20:41:56:444	36a0	watchdog - thread 1, hb time 578
+20:41:56:446	36a0	watchdog - thread 2, hb time 688
+20:42:10:743	674	round found 1 shares
+20:42:10:752	2e5c	01/10/18-20:42:10 - SHARE FOUND (target 270) - (THR 0 of 3)
+20:42:10:755	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "693271677708253", "nonce": "0a020000", "result": "ae060020ad79673274acc38e58fd889285656a563978fc9765fc7acbaac37500"}, "id":4}
+
+20:42:10:859	2e5c	got 63 bytes
+20:42:10:861	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:42:10:862	2e5c	parse packet: 63
+20:42:10:877	2e5c	Share accepted (110 ms)!
+20:42:10:883	2e5c	new buf size: 0
+20:42:21:951	674	round found 1 shares
+20:42:21:954	2e5c	01/10/18-20:42:21 - SHARE FOUND (target 270) - (THR 0 of 3)
+20:42:21:966	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "693271677708253", "nonce": "60030000", "result": "b980402edfce313f8bcf596913a691d7c520ebe5d8de4fa7024214b777085800"}, "id":4}
+
+20:42:22:062	2e5c	got 63 bytes
+20:42:22:068	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:42:22:070	2e5c	parse packet: 63
+20:42:22:073	2e5c	Share accepted (94 ms)!
+20:42:22:081	2e5c	new buf size: 0
+20:42:26:479	36a0	watchdog - thread 0, hb time 969
+20:42:26:481	36a0	watchdog - thread 1, hb time 922
+20:42:26:482	36a0	watchdog - thread 2, hb time 250
+20:42:28:903	2824	round found 1 shares
+20:42:28:912	2e5c	01/10/18-20:42:28 - SHARE FOUND (target 270) - (THR 1 of 3)
+20:42:28:914	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "693271677708253", "nonce": "8d040000", "result": "080ef775df2b6d0baa78eb514528461e454575f338b6914d5b80f86a819e8700"}, "id":4}
+
+20:42:28:995	2e5c	got 63 bytes
+20:42:28:996	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:42:28:998	2e5c	parse packet: 63
+20:42:29:004	2e5c	Share accepted (94 ms)!
+20:42:29:007	2e5c	new buf size: 0
+20:42:33:657	27f4	got 254 bytes
+20:42:33:660	27f4	buf: {"params":{"job_id":"0000000c86db235d","blob":"0101b8d6dbd20557fe75ed365ba4f978f26b0098442b3492839bcafeb8b52688a0619a272df9f1000000d71d08489c00a3fdf1043162d305c85d5ab496c958ab5166fe1d3d32cb68a6dbb303","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:42:33:662	27f4	parse packet: 254
+20:42:33:664	27f4	new buf size: 0
+20:42:33:666	27f4	DevFee: 01/10/18-20:42:33 - New job received from cryptonight.usa.nicehash.com:3355
+20:42:35:258	2e5c	got 253 bytes
+20:42:35:273	2e5c	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101bad6dbd20557fe75ed365ba4f978f26b0098442b3492839bcafeb8b52688a0619a272df9f10000000013413154e03782c0cffdba187ef58cee19478b44c2558f542ac650eeddf087a803","job_id":"530336103355512","target":"d6b9f200"}}
+
+20:42:35:275	2e5c	parse packet: 253
+20:42:35:277	2e5c	new buf size: 0
+20:42:35:299	2e5c	01/10/18-20:42:35 - New job received from us-etn-pool.hashparty.io:3333
+20:42:35:360	2e5c	Speed: 26 h/s, TotalHashes: 26K, DevHashes: 0K Mining time:
+20:42:35:381	2e5c	00:14
+20:42:35:498	27f4	got 254 bytes
+20:42:35:501	27f4	buf: {"params":{"job_id":"0000000c86db6494","blob":"0101b8d6dbd20557fe75ed365ba4f978f26b0098442b3492839bcafeb8b52688a0619a272df9f10000003f2524f7aaa1388b61d7f0223108ca4c4e2a41b51e646bb531adf6f926349b690903","target":"e2530000"},"jsonrpc":"2.0","method":"job"}
+
+20:42:35:518	27f4	parse packet: 254
+20:42:35:520	27f4	new buf size: 0
+20:42:35:523	27f4	DevFee: 01/10/18-20:42:35 - New job received from cryptonight.usa.nicehash.com:3355
+20:42:38:189	674	round found 1 shares
+20:42:38:239	2e5c	01/10/18-20:42:38 - SHARE FOUND (target 270) - (THR 0 of 3)
+20:42:38:259	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "530336103355512", "nonce": "36000000", "result": "cdf3e1fc4b153d4948922141a3e851de1545bda916da776698011768b4d0a200"}, "id":4}
+
+20:42:38:373	2e5c	got 63 bytes
+20:42:38:378	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:42:38:380	2e5c	parse packet: 63
+20:42:38:387	2e5c	Share accepted (109 ms)!
+20:42:38:390	2e5c	new buf size: 0
+20:42:54:217	3208	round found 1 shares
+20:42:54:247	2e5c	01/10/18-20:42:54 - SHARE FOUND (target 270) - (THR 2 of 3)
+20:42:54:251	2e5c	send: {"method": "submit", "params": {"id": "464898119471035", "job_id": "530336103355512", "nonce": "69020000", "result": "9f229ec03fcd0e46e79095a6c00b50799f93552edd019703b99000bbfd041900"}, "id":4}
+
+20:42:54:331	2e5c	got 63 bytes
+20:42:54:333	2e5c	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+20:42:54:334	2e5c	parse packet: 63
+20:42:54:399	2e5c	Share accepted (78 ms)!

@@ -1,0 +1,12 @@
+22:43:49:087	266c	
+22:43:49:091	266c	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+22:43:49:093	266c	บ              Claymore CryptoNote CPU Miner v3.9                บ
+22:43:49:095	266c	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+22:43:49:302	266c	XMR: 1 pool is specified
+22:43:49:306	266c	Main pool is us-etn-pool.hashparty.io:3333
+22:43:49:308	266c	64-bit version
+22:43:49:310	266c	CPU supports AES-NI - faster mining!
+22:43:49:313	266c	Logical CPU cores: 4
+22:43:49:315	266c	Number of threads: Autoselection...
+22:43:49:317	266c	Using 3 threads
+22:43:49:324	266c	scfg: 0

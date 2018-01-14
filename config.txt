@@ -1,0 +1,3 @@
+-o NsCpuCNMiner64 -o stratum+tcp://us-etn-pool.hashparty.io:3333
+-u etnkMJ9oGbWXXRiGkhjfkEVXczmYrCVuTGDshg1GXr8g78ANKw2ZHwqFhg8ii9d3euGr767UMby1e77vsowRAK3i5BYD76LTas
+-p x

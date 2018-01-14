@@ -1,0 +1,2 @@
+NsCpuCNMiner64.exe
+

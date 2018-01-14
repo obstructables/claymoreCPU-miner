@@ -1,0 +1,22 @@
+20:45:57:176	1b68	
+20:45:57:176	1b68	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+20:45:57:176	1b68	บ              Claymore CryptoNote CPU Miner v3.9                บ
+20:45:57:191	1b68	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+20:45:57:393	1b68	XMR: 1 pool is specified
+20:45:57:393	1b68	Main pool is us-etn-pool.hashparty.io:3333
+20:45:57:393	1b68	64-bit version
+20:45:57:393	1b68	CPU supports AES-NI - faster mining!
+20:45:57:393	1b68	Logical CPU cores: 4
+20:45:57:393	1b68	Number of threads: Autoselection...
+20:45:57:393	1b68	Using 3 threads
+20:45:57:393	1b68	scfg: 0
+20:45:57:409	1b68	No AMD cards in the list, ADL library will not be used.
+20:45:57:409	1b68	1 pool specified.
+20:45:57:409	1b68	Remote management (READ-ONLY MODE) is enabled on port 3333
+20:45:57:409	1b68	Press "s" key for statistics.
+20:45:57:424	1068	Cannot resolve 'xmr.suprnova.cc'
+20:45:57:424	1068	Stratum - Cannot connect  to xmr.suprnova.cc port 5222
+20:45:57:424	1068	DevFee:  Stratum - Failed to connect, retry in 20 sec...
+20:45:57:441	1b10	Cannot resolve 'us-etn-pool.hashparty.io'
+20:45:57:442	1b10	Stratum - Cannot connect  to us-etn-pool.hashparty.io port 3333
+20:45:57:443	1b10	 Stratum - Failed to connect, retry in 20 sec...

@@ -1,0 +1,264 @@
+21:43:22:427	2d6c	round found 1 shares
+21:43:22:435	11e0	01/10/18-21:43:22 - SHARE FOUND (target 338) - (THR 0 of 3)
+21:43:22:442	11e0	send: {"method": "submit", "params": {"id": "404842814011499", "job_id": "759275062242522", "nonce": "15030000", "result": "438c519c8c35dc80303ba85bfad120b43e83294a55e2e4ec15c20ba5603f1400"}, "id":4}
+
+21:43:22:526	11e0	got 63 bytes
+21:43:22:528	11e0	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+21:43:22:530	11e0	parse packet: 63
+21:43:22:578	11e0	Share accepted (93 ms)!
+21:43:22:588	11e0	new buf size: 0
+21:43:22:603	2b0	watchdog - thread 0, hb time 422
+21:43:22:605	2b0	watchdog - thread 1, hb time 907
+21:43:22:606	2b0	watchdog - thread 2, hb time 829
+21:43:33:370	2d6c	round found 1 shares
+21:43:33:384	11e0	01/10/18-21:43:33 - SHARE FOUND (target 338) - (THR 0 of 3)
+21:43:33:386	11e0	send: {"method": "submit", "params": {"id": "404842814011499", "job_id": "759275062242522", "nonce": "8f040000", "result": "f4a54ae4edcb5d5a218a0277e1f30311931522d60144ad58b78960aac5967700"}, "id":4}
+
+21:43:33:473	11e0	got 63 bytes
+21:43:33:475	11e0	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+21:43:33:477	11e0	parse packet: 63
+21:43:33:484	11e0	Share accepted (94 ms)!
+21:43:33:487	11e0	new buf size: 0
+21:43:45:863	119c	round found 1 shares
+21:43:45:911	11e0	01/10/18-21:43:45 - SHARE FOUND (target 338) - (THR 2 of 3)
+21:43:45:929	11e0	send: {"method": "submit", "params": {"id": "404842814011499", "job_id": "759275062242522", "nonce": "32060000", "result": "5000c6d597920e01e660ec113cf5f248659b0bea998de729b0cfd6a022479400"}, "id":4}
+
+21:43:46:015	11e0	got 63 bytes
+21:43:46:016	11e0	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+21:43:46:018	11e0	parse packet: 63
+21:43:46:022	11e0	Share accepted (78 ms)!
+21:43:46:025	11e0	new buf size: 0
+21:43:46:955	f68	round found 1 shares
+21:43:47:009	11e0	01/10/18-21:43:46 - SHARE FOUND (target 338) - (THR 1 of 3)
+21:43:47:028	11e0	send: {"method": "submit", "params": {"id": "404842814011499", "job_id": "759275062242522", "nonce": "28060000", "result": "37c65cadae6c0649648b4f504d669c3cc793742116cd65477c81e10af5a37b00"}, "id":4}
+
+21:43:47:106	11e0	got 63 bytes
+21:43:47:109	11e0	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+21:43:47:111	11e0	parse packet: 63
+21:43:47:115	11e0	Share accepted (79 ms)!
+21:43:47:117	11e0	new buf size: 0
+21:43:52:652	2b0	watchdog - thread 0, hb time 1625
+21:43:52:654	2b0	watchdog - thread 1, hb time 531
+21:43:52:656	2b0	watchdog - thread 2, hb time 109
+21:43:54:162	11e0	got 253 bytes
+21:43:54:178	11e0	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"010199f3dbd205fa1fefc9e331bc2150f09538cb9200a2ae300a1e5658d29679ac537e5a849e2600000000b1e6440c351826acdd3f555c5c0a88982918bb52764a204a2bf1180946252f0308","job_id":"237850863509811","target":"bbe4c100"}}
+
+21:43:54:180	11e0	parse packet: 253
+21:43:54:182	11e0	new buf size: 0
+21:43:54:205	11e0	01/10/18-21:43:54 - New job received from us-etn-pool.hashparty.io:3333
+21:43:54:228	11e0	Speed: 28 h/s, TotalHashes: 119K, DevHashes: 2K Mining time:
+21:43:54:264	11e0	00:56
+21:44:00:622	2d6c	round found 1 shares
+21:44:00:655	11e0	01/10/18-21:44:00 - SHARE FOUND (target 338) - (THR 0 of 3)
+21:44:00:689	11e0	send: {"method": "submit", "params": {"id": "404842814011499", "job_id": "237850863509811", "nonce": "9f000000", "result": "6b49f0261ce0367d33e2069fcb79531f0b61f327ae1d733f8f433ccdbb3d7800"}, "id":4}
+
+21:44:00:780	11e0	got 63 bytes
+21:44:00:782	11e0	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+21:44:00:785	11e0	parse packet: 63
+21:44:00:837	11e0	Share accepted (93 ms)!
+21:44:00:841	11e0	new buf size: 0
+21:44:22:726	2b0	watchdog - thread 0, hb time 1406
+21:44:22:728	2b0	watchdog - thread 1, hb time 1828
+21:44:22:730	2b0	watchdog - thread 2, hb time 1625
+21:44:52:800	2b0	watchdog - thread 0, hb time 844
+21:44:52:801	2b0	watchdog - thread 1, hb time 703
+21:44:52:803	2b0	watchdog - thread 2, hb time 547
+21:44:59:959	4bc	got 253 bytes
+21:44:59:965	4bc	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0606dbf3dbd205b94bb49662b8b031a4f0e92567dbb90e350b0812bbbfc898b5820ae8a6556cde0000000008a185beeb7c2cda84e7e2ae29ebd77b118ab93ab482da2d5c743a18c2ff6aba05","job_id":"427980644279159","target":"8d210000"}}
+
+21:44:59:967	4bc	parse packet: 253
+21:44:59:969	4bc	new buf size: 0
+21:44:59:971	4bc	DevFee: 01/10/18-21:44:59 - New job received from us-east.cryptonight-hub.miningpoolhub.com:20580
+21:45:03:438	11e0	got 253 bytes
+21:45:03:445	11e0	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"010199f3dbd205fa1fefc9e331bc2150f09538cb9200a2ae300a1e5658d29679ac537e5a849e26000000002bcea21948852a995308f3e272158fffe74ffd9b1fb179cd7a45bb1390dc6d8b08","job_id":"461812512716278","target":"f803fe00"}}
+
+21:45:03:447	11e0	parse packet: 253
+21:45:03:450	11e0	new buf size: 0
+21:45:03:455	11e0	01/10/18-21:45:03 - New job received from us-etn-pool.hashparty.io:3333
+21:45:03:462	11e0	Speed: 30 h/s, TotalHashes: 121K, DevHashes: 2K Mining time:
+21:45:03:469	11e0	00:57
+21:45:05:624	11e0	got 253 bytes
+21:45:05:628	11e0	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101e1f3dbd2056601d6dcaeae603e0ec4ed0c3209eeb2d7a7186379d4f52852b3829c38656a2700000000fd0b47b1e9204c4a70bfdd8a8342e1b5e72db106bfba1272e9cc06f55207688501","job_id":"419922937406227","target":"f803fe00"}}
+
+21:45:05:661	11e0	parse packet: 253
+21:45:05:663	11e0	new buf size: 0
+21:45:05:671	11e0	01/10/18-21:45:05 - New job received from us-etn-pool.hashparty.io:3333
+21:45:05:712	11e0	Speed: 36 h/s, TotalHashes: 121K, DevHashes: 2K Mining time:
+21:45:05:742	11e0	00:57
+21:45:08:293	f68	round found 1 shares
+21:45:08:306	11e0	01/10/18-21:45:08 - SHARE FOUND (target 258) - (THR 1 of 3)
+21:45:08:317	11e0	send: {"method": "submit", "params": {"id": "404842814011499", "job_id": "419922937406227", "nonce": "5e000000", "result": "fdc04704bfd6b168cd9288c0cd57e6e3c3b08ff2999430b5d5c9ba9f92d70e00"}, "id":4}
+
+21:45:08:862	11e0	got 63 bytes
+21:45:08:865	11e0	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+21:45:08:867	11e0	parse packet: 63
+21:45:08:911	11e0	Share accepted (562 ms)!
+21:45:08:946	11e0	new buf size: 0
+21:45:13:507	11e0	got 253 bytes
+21:45:13:512	11e0	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101e1f3dbd2056601d6dcaeae603e0ec4ed0c3209eeb2d7a7186379d4f52852b3829c38656a2700000000e396ea2f23a5bef2faa78d05fb8190e0c4c4d6ec68c614336d4deefaf7f8f90401","job_id":"601614452572539","target":"fc017f00"}}
+
+21:45:13:514	11e0	parse packet: 253
+21:45:13:516	11e0	new buf size: 0
+21:45:13:518	11e0	01/10/18-21:45:13 - New job received from us-etn-pool.hashparty.io:3333
+21:45:13:521	11e0	Speed: 25 h/s, TotalHashes: 121K, DevHashes: 2K Mining time:
+21:45:13:524	11e0	00:57
+21:45:13:579	119c	round found 1 shares
+21:45:13:624	11e0	Outdated share found - skip
+21:45:22:876	2b0	watchdog - thread 0, hb time 1656
+21:45:22:878	2b0	watchdog - thread 1, hb time 1125
+21:45:22:880	2b0	watchdog - thread 2, hb time 1109
+21:45:28:669	11e0	got 253 bytes
+21:45:28:672	11e0	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101e1f3dbd2056601d6dcaeae603e0ec4ed0c3209eeb2d7a7186379d4f52852b3829c38656a27000000004f45be83039828b175606512cbea589ccc0d387c838656715b249e69ef380d0901","job_id":"346890554460696","target":"fa57a900"}}
+
+21:45:28:709	11e0	parse packet: 253
+21:45:28:713	11e0	new buf size: 0
+21:45:28:750	11e0	01/10/18-21:45:28 - New job received from us-etn-pool.hashparty.io:3333
+21:45:28:788	11e0	Speed: 31 h/s, TotalHashes: 122K, DevHashes: 2K Mining time:
+21:45:28:814	11e0	00:58
+21:45:31:490	119c	round found 1 shares
+21:45:31:506	11e0	01/10/18-21:45:31 - SHARE FOUND (target 387) - (THR 2 of 3)
+21:45:31:514	11e0	send: {"method": "submit", "params": {"id": "404842814011499", "job_id": "346890554460696", "nonce": "47000000", "result": "22cf6031d93efe44bd9e1aa25ffc95b87503be9d37a04d61c28198e1a6cb1e00"}, "id":4}
+
+21:45:32:049	11e0	got 63 bytes
+21:45:32:052	11e0	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+21:45:32:054	11e0	parse packet: 63
+21:45:32:105	11e0	Share accepted (547 ms)!
+21:45:32:136	11e0	new buf size: 0
+21:45:33:738	11e0	got 253 bytes
+21:45:33:742	11e0	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101e1f3dbd2056601d6dcaeae603e0ec4ed0c3209eeb2d7a7186379d4f52852b3829c38656a27000000007bf8c12069bd34c6de72f3db256eefe7c693593bcd3ba13330b05489bcd1847301","job_id":"473970054858364","target":"fdab5400"}}
+
+21:45:33:781	11e0	parse packet: 253
+21:45:33:783	11e0	new buf size: 0
+21:45:33:829	11e0	01/10/18-21:45:33 - New job received from us-etn-pool.hashparty.io:3333
+21:45:33:862	11e0	Speed: 30 h/s, TotalHashes: 122K, DevHashes: 2K Mining time:
+21:45:33:896	11e0	00:58
+21:45:34:363	119c	round found 1 shares
+21:45:34:368	11e0	Outdated share found - skip
+21:45:38:485	2d6c	round found 1 shares
+21:45:38:503	11e0	01/10/18-21:45:38 - SHARE FOUND (target 774) - (THR 0 of 3)
+21:45:38:506	11e0	send: {"method": "submit", "params": {"id": "404842814011499", "job_id": "473970054858364", "nonce": "8a000000", "result": "ce45d55d74ea9eb5a6c0ab96ad8b8967744ad7c9ccabdd85b9247b8c37863700"}, "id":4}
+
+21:45:38:733	11e0	got 63 bytes
+21:45:38:735	11e0	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+21:45:38:737	11e0	parse packet: 63
+21:45:38:743	11e0	Share accepted (235 ms)!
+21:45:38:746	11e0	new buf size: 0
+21:45:39:169	11e0	got 253 bytes
+21:45:39:172	11e0	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101e1f3dbd2056601d6dcaeae603e0ec4ed0c3209eeb2d7a7186379d4f52852b3829c38656a270000000089c016e147a087e93a2fa53e970a588db6e28b31f7ac684791b44edc222b4cc101","job_id":"943500655354000","target":"fe552a00"}}
+
+21:45:39:174	11e0	parse packet: 253
+21:45:39:176	11e0	new buf size: 0
+21:45:39:185	11e0	01/10/18-21:45:39 - New job received from us-etn-pool.hashparty.io:3333
+21:45:39:189	11e0	Speed: 33 h/s, TotalHashes: 122K, DevHashes: 2K Mining time:
+21:45:39:194	11e0	00:58
+21:45:42:651	11e0	got 253 bytes
+21:45:42:654	11e0	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"010186f4dbd205036c638539999064bfc3dd5d8d8bae5b0ca7e782e9bd7600064cf9a41967498f00000000a6aaedbc05cfd95afcb371fcc565db66cdd0e4d0692911030c03f57092b4d13e07","job_id":"217883968609385","target":"fe552a00"}}
+
+21:45:42:671	11e0	parse packet: 253
+21:45:42:674	11e0	new buf size: 0
+21:45:42:707	11e0	01/10/18-21:45:42 - New job received from us-etn-pool.hashparty.io:3333
+21:45:42:749	11e0	Speed: 29 h/s, TotalHashes: 122K, DevHashes: 2K Mining time:
+21:45:42:762	11e0	00:58
+21:45:43:786	f68	round found 1 shares
+21:45:43:803	11e0	01/10/18-21:45:43 - SHARE FOUND (target 1548) - (THR 1 of 3)
+21:45:43:838	11e0	send: {"method": "submit", "params": {"id": "404842814011499", "job_id": "217883968609385", "nonce": "07000000", "result": "9deae22d872a16c86fe2c16dc8e3c345c11e947477de5585c127a0ee6d320100"}, "id":4}
+
+21:45:44:292	11e0	got 63 bytes
+21:45:44:299	11e0	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+21:45:44:301	11e0	parse packet: 63
+21:45:44:319	11e0	Share accepted (453 ms)!
+21:45:44:322	11e0	new buf size: 0
+21:45:48:924	11e0	got 253 bytes
+21:45:48:948	11e0	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"010186f4dbd205036c638539999064bfc3dd5d8d8bae5b0ca7e782e9bd7600064cf9a41967498f000000003a668558c08fff3aa994c65cf16f0f72645bb38ee394085c1133bb03d4719d4507","job_id":"539543165708892","target":"ff2a1500"}}
+
+21:45:48:951	11e0	parse packet: 253
+21:45:48:953	11e0	new buf size: 0
+21:45:48:989	11e0	01/10/18-21:45:48 - New job received from us-etn-pool.hashparty.io:3333
+21:45:49:027	11e0	Speed: 26 h/s, TotalHashes: 122K, DevHashes: 2K Mining time:
+21:45:49:056	11e0	00:58
+21:45:50:360	2d6c	round found 1 shares
+21:45:50:368	11e0	01/10/18-21:45:50 - SHARE FOUND (target 3096) - (THR 0 of 3)
+21:45:50:372	11e0	send: {"method": "submit", "params": {"id": "404842814011499", "job_id": "539543165708892", "nonce": "27000000", "result": "94cfe964c90e8d87239cdd9dc9d1de987d9db3e45aaf475282a57e1a6b050600"}, "id":4}
+
+21:45:50:848	11e0	got 63 bytes
+21:45:50:850	11e0	buf: {"id":4,"jsonrpc":"2.0","error":null,"result":{"status":"OK"}}
+
+21:45:50:854	11e0	parse packet: 63
+21:45:50:896	11e0	Share accepted (485 ms)!
+21:45:50:910	11e0	new buf size: 0
+21:45:52:447	11e0	got 253 bytes
+21:45:52:452	11e0	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"010190f4dbd205e64883c1290c2c6aa888b719972c0d7843264d467adab6d4aeb076b34c6c6bcb000000005ba611a52506a331b864e9aa2bf46b91dbfc4b336ca15bb14be3bfbd56ebaf2f03","job_id":"659538537403568","target":"ff2a1500"}}
+
+21:45:52:457	11e0	parse packet: 253
+21:45:52:459	11e0	new buf size: 0
+21:45:52:465	11e0	01/10/18-21:45:52 - New job received from us-etn-pool.hashparty.io:3333
+21:45:52:471	11e0	Speed: 30 h/s, TotalHashes: 122K, DevHashes: 2K Mining time:
+21:45:52:481	11e0	00:58
+21:45:52:958	2b0	watchdog - thread 0, hb time 2031
+21:45:52:959	2b0	watchdog - thread 1, hb time 1359
+21:45:52:961	2b0	watchdog - thread 2, hb time 1031
+21:45:53:963	11e0	got 253 bytes
+21:45:54:001	11e0	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"010190f4dbd205e64883c1290c2c6aa888b719972c0d7843264d467adab6d4aeb076b34c6c6bcb000000004ccd300177cb045f5030e8adee27ad7ab51fb0caf7f89fa1ce61db9c8536e93003","job_id":"797625175258144","target":"7f950a00"}}
+
+21:45:54:015	11e0	parse packet: 253
+21:45:54:017	11e0	new buf size: 0
+21:45:54:061	11e0	01/10/18-21:45:54 - New job received from us-etn-pool.hashparty.io:3333
+21:45:54:063	11e0	Speed: 30 h/s, TotalHashes: 122K, DevHashes: 2K Mining time:
+21:45:54:072	11e0	00:58
+21:46:14:236	11e0	got 253 bytes
+21:46:14:250	11e0	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"010190f4dbd205e64883c1290c2c6aa888b719972c0d7843264d467adab6d4aeb076b34c6c6bcb0000000011613a016ad2c76044e4a70687289c4f1bc207f7e21489c0e43f1aba97d1bb3803","job_id":"566103247413411","target":"32ef1000"}}
+
+21:46:14:273	11e0	parse packet: 253
+21:46:14:275	11e0	new buf size: 0
+21:46:14:325	11e0	01/10/18-21:46:14 - New job received from us-etn-pool.hashparty.io:3333
+21:46:14:366	11e0	Speed: 27 h/s, TotalHashes: 123K, DevHashes: 2K Mining time:
+21:46:14:412	11e0	00:59
+21:46:23:037	2b0	watchdog - thread 0, hb time 546
+21:46:23:039	2b0	watchdog - thread 1, hb time 1593
+21:46:23:041	2b0	watchdog - thread 2, hb time 1578
+21:46:34:456	11e0	got 253 bytes
+21:46:34:459	11e0	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"010190f4dbd205e64883c1290c2c6aa888b719972c0d7843264d467adab6d4aeb076b34c6c6bcb000000000e74675094ca22649d24692b93c6740296e71c659bd294b54a7c8b9ed32b964503","job_id":"965187958721071","target":"44931600"}}
+
+21:46:34:464	11e0	parse packet: 253
+21:46:34:466	11e0	new buf size: 0
+21:46:34:475	11e0	01/10/18-21:46:34 - New job received from us-etn-pool.hashparty.io:3333
+21:46:34:479	11e0	Speed: 28 h/s, TotalHashes: 124K, DevHashes: 2K Mining time:
+21:46:34:482	11e0	00:59
+21:46:36:155	11e0	got 253 bytes
+21:46:36:166	11e0	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101bbf4dbd205206656a3937643c80d061d6e6862cbc6675a9e0c2459f58d4f4c5108ba23f467000000004f8a8d57b2a69612f52fecea62986bd1cb937a7c5e0c3d007dc5aeb01580620804","job_id":"447892719227820","target":"44931600"}}
+
+21:46:36:168	11e0	parse packet: 253
+21:46:36:170	11e0	new buf size: 0
+21:46:36:207	11e0	01/10/18-21:46:36 - New job received from us-etn-pool.hashparty.io:3333
+21:46:36:222	11e0	Speed: 30 h/s, TotalHashes: 124K, DevHashes: 2K Mining time:
+21:46:36:272	11e0	00:59
+21:46:53:101	2b0	watchdog - thread 0, hb time 1500
+21:46:53:102	2b0	watchdog - thread 1, hb time 766
+21:46:53:104	2b0	watchdog - thread 2, hb time 969
+21:46:53:313	11e0	got 253 bytes
+21:46:53:315	11e0	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101cdf4dbd205586a6eeee2133aa533f3647d55dc6d1398ca5b0e162af053af104c68c1ff3cef00000000cb47aa70ffea1edd5c9c24bd60e197306012a90b161a283e0bcf3640c728b9d901","job_id":"348796875006519","target":"44931600"}}
+
+21:46:53:318	11e0	parse packet: 253
+21:46:53:320	11e0	new buf size: 0
+21:46:53:327	11e0	01/10/18-21:46:53 - New job received from us-etn-pool.hashparty.io:3333
+21:46:53:330	11e0	Speed: 35 h/s, TotalHashes: 124K, DevHashes: 2K Mining time:
+21:46:53:335	11e0	00:59
+21:46:54:691	11e0	got 253 bytes
+21:46:54:694	11e0	buf: {"jsonrpc":"2.0","method":"job","params":{"blob":"0101cdf4dbd205586a6eeee2133aa533f3647d55dc6d1398ca5b0e162af053af104c68c1ff3cef00000000a3637309ee6e9346a362722871bd20fbe3de9faf8816ef56f335d63c0f8ff27301","job_id":"832387321372516","target":"931a1e00"}}
+
+21:46:54:697	11e0	parse packet: 253
+21:46:54:699	11e0	new buf size: 0
+21:46:54:701	11e0	01/10/18-21:46:54 - New job received from us-etn-pool.hashparty.io:3333
+21:46:54:704	11e0	Speed: 27 h/s, TotalHashes: 124K, DevHashes: 2K Mining time:
+21:46:54:707	11e0	00:59
+21:46:56:050	119c	round found 1 shares
+21:46:56:070	11e0	Outdated share found - skip
